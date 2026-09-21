@@ -7,7 +7,29 @@
             
             require_once 'header.php';
             
-        ?>
+            // Arreglo con la información de las fotos descargadas de Unsplash/Pexels
+            $imagenes_hotsprings = [
+                [
+                    "archivo" => "images/piscina_termal.webp",
+                    "alt" => "Piscina termal exterior con vapor",
+                    "titulo" => "Aguas Termales",
+                    "descripcion" => "Piscinas naturales reguladas a 38°C."
+                ],
+                [
+                    "archivo" => "images/spa_relax.webp",
+                    "alt" => "Sesión de spa y masajes relajantes",
+                    "titulo" => "Circuito de Spa",
+                    "descripcion" => "Masajes terapéuticos y relajación total."
+                ],
+                [
+                    "archivo" => "images/entorno_natural.webp",
+                    "alt" => "Paisaje natural alrededor del resort",
+                    "titulo" => "Entorno Natural",
+                    "descripcion" => "Rodeado de naturaleza en estado puro."
+                ],
+                // Puedes seguir agregando más fotos aquí abajo siguiendo el mismo formato
+            ];
+            ?>
         <section class="hero">
             <div class="wrap">
                 <div>
@@ -19,9 +41,28 @@
                         <a href="#nichos" class="btn btn-ghost">Ver los tres nichos</a>
                     </div>
                 </div>
-                <div class="hero-glyph" aria-hidden="true">
+                <!-- <div class="hero-glyph" aria-hidden="true">
                     <img src="images/hsllc.png" alt="Hot Springs LLC, logo" width="240" height="240">
+                </div> -->
+                <div class="carrusel-contenedor">
+                    <div class="carrusel-track">
+                        <?php foreach ($imagenes_hotsprings as $imagen): ?>
+                            <div class="tarjeta-slider">
+                                <div class="contenedor-foto">
+                                    <img src="<?php echo $imagen['archivo']; ?>" alt="<?php echo $imagen['alt']; ?>">
+                                </div>
+                                <div class="info-foto">
+                                    <h3><?php echo $imagen['titulo']; ?></h3>
+                                    <p><?php echo $imagen['descripcion']; ?></p>
+                                </div>
+                            </div>
+                        <?php endforeach; ?>
+                    </div>
+                    <!-- Botones opcionales para controlar el slider manualmente -->
+                    <button class="boton-slider prev" onclick="cambiarSlide(-1)">&#10094;</button>
+                    <button class="boton-slider next" onclick="cambiarSlide(1)">&#10095;</button>
                 </div>
+
             </div>
         </section>
 

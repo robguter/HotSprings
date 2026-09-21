@@ -90,3 +90,4 @@ function renderNiche(nicheKey, gridSelector, filtersSelector, emptyStateSelector
 
   draw("Todos");
 }
+
