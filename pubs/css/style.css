@@ -229,6 +229,16 @@ button{ font-family:inherit; cursor:pointer; }
   background:#fff; border:1px solid var(--line); border-radius:var(--radius-m);
   display:flex; flex-direction:column; overflow:hidden;
 }
+.product-card > h3{
+  background:transparent; 
+  position: absolute;
+  text-align: center;
+  margin: 0px auto;
+  padding: 0px 3%;
+  font-weight: 700;
+  color: #FaF8F8;
+  text-shadow: 1px 1px 2px #000000;
+}
 .producto-card {
   position:relative; overflow:hidden;
   max-width: 600px; margin: 40px auto 40px auto;
