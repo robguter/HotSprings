@@ -442,6 +442,81 @@ button{ font-family:inherit; cursor:pointer; }
 .boton-slider.next { right: 10px; }
 .boton-slider:hover { background: rgba(0, 0, 0, 0.8); }
 
+.columna-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el texto verticalmente con respecto al slider */
+    max-width: 550px;
+    padding: 20px;
+}
+
+/* El texto pequeño de arriba ahora tiene más estilo y respiro */
+.subtitulo-superior {
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #a0aec0; /* Un gris claro elegante que resalta en fondo oscuro */
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Título principal con interlineado más limpio */
+.titulo-principal {
+    font-size: 2.8rem;
+    line-height: 1.15;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
+
+/* El párrafo se lee mejor con un interlineado (line-height) más amplio */
+.descripcion-corta {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #cbd5e0; /* Gris suave que descansa la vista */
+    margin-bottom: 35px;
+}
+
+.descripcion-corta strong {
+    color: #4fd1c5; /* Resalta tus tres nichos con un tono turquesa/azul spa */
+}
+
+/* Alineación de tus dos botones */
+.bloque-botones {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn-primario {
+    background-color: #319795;
+    color: white;
+}
+
+.btn-primario:hover {
+    background-color: #2c7a7b;
+    transform: translateY(-2px);
+}
+
+.btn-secundario {
+    border: 2px solid #ffffff;
+    color: white;
+}
+
+.btn-secundario:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+}
+
 /* ---------- responsive ---------- */
 @media (max-width:960px){
   .hero .wrap{ grid-template-columns:1fr; }
@@ -470,4 +545,24 @@ button{ font-family:inherit; cursor:pointer; }
   .product-grid{ grid-template-columns:1fr 1fr; }
   .footer-grid{ grid-template-columns:1fr; }
   .filters{ top:76px; }
+}
+@media (max-width: 768px) {
+    /* Buscala en tu CSS y agrega align-items: center */
+    .hero .wrap {
+        display: flex;
+        flex-direction: column; /* Apila el texto arriba y el slider abajo */
+        align-items: center;    /* 👈 ESTO CENTRA EL SLIDER Y EL TEXTO EN MÓVIL */
+        text-align: center;     
+        gap: 30px;
+    }
+
+    /* Asegúrate de que el contenedor del slider tenga margen automático a los lados */
+    .carrusel-contenedor {
+        width: 100%;
+        max-width: 450px; /* Evita que se estire de más en tablets */
+        margin: 0 auto;   /* 👈 ESTO ASEGURA EL CENTRADO HORIZONTAL */
+        position: relative;
+        overflow: hidden;
+        border-radius: 12px;
+    }
 }

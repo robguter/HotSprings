@@ -32,13 +32,19 @@
             ?>
         <section class="hero">
             <div class="wrap">
-                <div>
-                    <p class="hero-eyebrow">Recomendaciones de Amazon, elegidas con cuidado</p>
-                    <h1>Tres fuentes de <em>buenas decisiones</em> de compra</h1>
-                    <p class="hero-sub">Reunimos, en un solo lugar, los productos de Amazon que valen la pena en belleza, hogar y vida activa — para que no tengas que revisar cien reseñas para elegir uno bueno.</p>
-                    <div class="hero-actions">
-                        <a href="belleza" class="btn btn-primary">Explorar Belleza y Cuidado</a>
-                        <a href="#nichos" class="btn btn-ghost">Ver los tres nichos</a>
+                <div class="columna-texto">
+                    <span class="subtitulo-superior">Recomendaciones de Amazon</span>
+                    <h1 class="titulo-principal">Tres fuentes de buenas decisiones de compra</h1>
+                    
+                    <p class="descripcion-corta">
+                        Reunimos en un solo lugar los productos que valen la pena en 
+                        <strong>belleza, hogar y vida activa</strong>. Nos encargamos de filtrar las 
+                        reseñas para que elijas solo lo mejor.
+                    </p>
+                    
+                    <div class="bloque-botones">
+                        <a href="belleza" class="btn btn-primario">Explorar Belleza y Cuidado</a>
+                        <a href="#nichos" class="btn btn-secundario">Ver los tres nichos</a>
                     </div>
                 </div>
                 <!-- <div class="hero-glyph" aria-hidden="true">
