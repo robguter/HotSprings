@@ -81,19 +81,19 @@
 
                 <div class="spring-panels">
                     <a href="belleza" class="spring-panel spring-panel--belleza">
-                        <span class="spring-tag">Nicho 1</span>
+                        <!-- <span class="spring-tag">Nicho 1</span> -->
                         <h3>Belleza y Cuidado</h3>
                         <p>Piel, cabello y rutinas diarias: lo esencial para verte y sentirte bien, sin gastar más.</p>
                         <span class="btn btn-ghost">Ver productos</span>
                     </a>
                     <a href="hogar" class="spring-panel spring-panel--hogar">
-                        <span class="spring-tag">Nicho 2</span>
+                        <!-- <span class="spring-tag">Nicho 2</span> -->
                         <h3>Cocina y Hogar</h3>
                         <p>Herramientas de cocina y organización que hacen el día a día más simple.</p>
                         <span class="btn btn-ghost">Ver productos</span>
                     </a>
                     <a href="vida" class="spring-panel spring-panel--vida">
-                        <span class="spring-tag">Nicho 3</span>
+                        <!-- <span class="spring-tag">Nicho 3</span> -->
                         <h3>Vida Activa, Equipaje y Viajes</h3>
                         <p>Equipaje, fitness y accesorios para moverte — dentro o fuera de casa.</p>
                         <span class="btn btn-ghost">Ver productos</span>
