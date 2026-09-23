@@ -36,4 +36,4 @@ function cambiarSlide(direccion) {
 // Configuración del movimiento automático cada 3000 milisegundos (3 segundos)
 setInterval(() => {
     cambiarSlide(1);
-}, 6000);
+}, 4000);
