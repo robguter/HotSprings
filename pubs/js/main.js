@@ -37,3 +37,18 @@ function cambiarSlide(direccion) {
 setInterval(() => {
     cambiarSlide(1);
 }, 4000);
+/* ===========================================================
+   SEGUIMIENTO DE CLICS EN ENLACES DE AFILIADO (Meta Pixel)
+   Cada clic en "Ver en Amazon" registra un evento AmazonClick
+   con el nicho y el nombre del producto.
+   =========================================================== */
+document.addEventListener("click", function (e) {
+  var link = e.target.closest ? e.target.closest("a.product-cta") : null;
+  if (!link) return;
+  if (typeof fbq !== "function") return;
+  var card = link.closest(".product-card");
+  var nameEl = card ? card.querySelector(".product-body h3") : null;
+  var niche = document.body.getAttribute("data-niche") || "";
+  var product = nameEl ? nameEl.textContent.trim().substring(0, 100) : "";
+  fbq("trackCustom", "AmazonClick", { niche: niche, product: product });
+}, true);
