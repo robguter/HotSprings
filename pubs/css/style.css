@@ -487,6 +487,13 @@ button{ font-family:inherit; cursor:pointer; }
     background: #ffffff;
 }
 
+/* Las tarjetas del carrusel son enlaces a cada nicho */
+a.tarjeta-slider {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
 /* Botones de navegación */
 .boton-slider {
     position: absolute;

@@ -1,10 +1,10 @@
-        <footer class="site-footer">
+<footer class="site-footer">
             <div class="wrap">
                 <div class="footer-grid">
                     <div class="footer-brand">
                         <a href="index" class="logo">
                         <img src="images/hsllc.png" alt="Hot Springs LLC, logo" width="40" height="40">
-                        <span class="logo-text"><strong>Hot Springs</strong><span>LLC · Tienda de activa</span></span>
+                        <span class="logo-text"><strong>Hot Springs</strong><span>LLC · Tienda de recomendaciones</span></span>
                         </a>
                         <p>Recomendaciones de productos de Amazon en belleza, hogar y vida activa.</p>
                     </div>

@@ -1,5 +1,4 @@
-
-        <?php
+<?php
             $meta_title = "Hot Springs LLC — Recomendaciones de Amazon por nicho";
             $meta_description = "Recomendaciones curadas de Amazon en tres nichos: Belleza y Cuidado, Cocina y Hogar, y Vida Activa, Equipaje y Viajes.";
             $canonical = "https://tiendahotspringsllc.com/";
@@ -7,27 +6,29 @@
             
             require_once 'header.php';
             
-            // Arreglo con la información de las fotos descargadas de Unsplash/Pexels
+            // Tarjetas del carrusel: una por nicho, enlazan a su página
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/piscina_termal.webp",
-                    "alt" => "Piscina termal exterior con vapor",
-                    "titulo" => "Aguas Termales",
-                    "descripcion" => "Piscinas naturales reguladas a 38°C."
+                    "archivo" => "images/belleza/belleza_01.webp",
+                    "alt" => "Mujer descansando con antifaz para dormir",
+                    "titulo" => "Belleza y Cuidado",
+                    "descripcion" => "Piel, cabello y descanso: lo esencial para verte y sentirte bien.",
+                    "enlace" => "belleza"
                 ],
                 [
-                    "archivo" => "images/spa_relax.webp",
-                    "alt" => "Sesión de spa y masajes relajantes",
-                    "titulo" => "Circuito de Spa",
-                    "descripcion" => "Masajes terapéuticos y relajación total."
+                    "archivo" => "images/hogar/hogar_01.webp",
+                    "alt" => "Batería de cocina de acero inoxidable",
+                    "titulo" => "Cocina y Hogar",
+                    "descripcion" => "Herramientas de cocina y organización que simplifican el día a día.",
+                    "enlace" => "hogar"
                 ],
                 [
-                    "archivo" => "images/entorno_natural.webp",
-                    "alt" => "Paisaje natural alrededor del resort",
-                    "titulo" => "Entorno Natural",
-                    "descripcion" => "Rodeado de naturaleza en estado puro."
+                    "archivo" => "images/vida/vida_01.webp",
+                    "alt" => "Maletas de viaje azules",
+                    "titulo" => "Vida Activa, Equipaje y Viajes",
+                    "descripcion" => "Equipaje, fitness y accesorios para moverte donde vayas.",
+                    "enlace" => "vida"
                 ],
-                // Puedes seguir agregando más fotos aquí abajo siguiendo el mismo formato
             ];
             ?>
         <section class="hero">
@@ -53,7 +54,7 @@
                 <div class="carrusel-contenedor">
                     <div class="carrusel-track">
                         <?php foreach ($imagenes_hotsprings as $imagen): ?>
-                            <div class="tarjeta-slider">
+                            <a class="tarjeta-slider" href="<?php echo $imagen['enlace']; ?>">
                                 <div class="contenedor-foto">
                                     <img src="<?php echo $imagen['archivo']; ?>" alt="<?php echo $imagen['alt']; ?>">
                                 </div>
@@ -61,7 +62,7 @@
                                     <h3><?php echo $imagen['titulo']; ?></h3>
                                     <p><?php echo $imagen['descripcion']; ?></p>
                                 </div>
-                            </div>
+                            </a>
                         <?php endforeach; ?>
                     </div>
                     <!-- Botones opcionales para controlar el slider manualmente -->
@@ -75,7 +76,7 @@
         <section class="springs" id="nichos">
             <div class="wrap">
                 <div class="springs-head">
-                    <h2>Un mismo cuidado, tres aguas distintas</h2>
+                    <h2>Un mismo criterio, tres nichos que explorar</h2>
                     <p class="kicker">Cada nicho tiene su propia selección, revisada y actualizada — entra al que buscas.</p>
                 </div>
 
@@ -129,4 +130,4 @@
         </div>
 
         <?php
-      require_once 'footer.php'; // si tu footer también está separado ?>
+      require_once 'footer.php';
