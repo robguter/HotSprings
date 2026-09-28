@@ -292,15 +292,14 @@ button{ font-family:inherit; cursor:pointer; }
   background:#fff; border:1px solid var(--line); border-radius:var(--radius-m);
   display:flex; flex-direction:column; overflow:hidden;
 }
-.product-card > h3{
-  background:transparent; 
+.product-card > h5 {
   position: absolute;
+  display: block;
   text-align: center;
-  margin: 0px auto;
-  padding: 0px 3%;
-  font-weight: 700;
-  color: #FaF8F8;
-  text-shadow: 1px 1px 2px #000000;
+  background: #00000058;
+  color: #FFFFFFA8;
+  margin-top: 13%;
+  margin-left: 8.9%;
 }
 .producto-card {
   position:relative; overflow:hidden;
