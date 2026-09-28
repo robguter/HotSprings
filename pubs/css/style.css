@@ -338,8 +338,8 @@ button{ font-family:inherit; cursor:pointer; }
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    flex-wrap: nowrap;
-    gap: .5rem 1rem;
+    flex-wrap: wrap;
+    gap: .8rem 1rem;
     margin-top: .4rem;
     min-width: 100%;
     /* background: var(--sand); */
