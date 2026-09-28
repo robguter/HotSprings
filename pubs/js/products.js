@@ -62,7 +62,6 @@ function renderNiche(nicheKey, gridSelector, filtersSelector, emptyStateSelector
     const list = filterCat === "Todos" ? items : items.filter(p => p.cat === filterCat);
     grid.innerHTML = list.map(p => `
       <article class="product-card">
-        <h3>Foto ilustrativa</h3>
         <div class="product-media">${p.icon}</div>
         <div class="product-body">
           <span class="product-cat">${p.cat}</span>
@@ -71,7 +70,7 @@ function renderNiche(nicheKey, gridSelector, filtersSelector, emptyStateSelector
           <div class="product-foot">
             <span class="price-tier">${p.precio}</span>
             <a class="product-cta" href="${buildAmazonLink(p)}" target="_blank" rel="nofollow sponsored noopener">
-              Ver en Amazon
+              Foto ilustrativa - Ver en Amazon
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17 17 7M9 7h8v8"/></svg>
             </a>
           </div>
