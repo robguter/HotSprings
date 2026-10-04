@@ -19,24 +19,24 @@ document.addEventListener("DOMContentLoaded", () => {
 let indiceActual = 0;
 const slides = document.querySelectorAll('.tarjeta-slider');
 const track = document.querySelector('.carrusel-track');
-
+const hayCarrusel = track && slides.length > 0;
 function mostrarSlide(indice) {
-    if (indice >= slides.length) indiceActual = 0;
-    else if (indice < 0) indiceActual = slides.length - 1;
-    else indiceActual = indice;
-
-    // Desplaza el contenedor de forma horizontal
-    track.style.transform = `translateX(-${indiceActual * 100}%)`;
+  if (!hayCarrusel) return;
+  if (indice >= slides.length) indiceActual = 0;
+  else if (indice < 0) indiceActual = slides.length - 1;
+  else indiceActual = indice;
+  // Desplaza el contenedor de forma horizontal
+  track.style.transform = `translateX(-${indiceActual * 100}%)`;
 }
-
 function cambiarSlide(direccion) {
-    mostrarSlide(indiceActual + direccion);
+  mostrarSlide(indiceActual + direccion);
 }
-
-// Configuración del movimiento automático cada 3000 milisegundos (3 segundos)
-setInterval(() => {
+// Movimiento automático solo si hay carrusel en la página
+if (hayCarrusel) {
+  setInterval(() => {
     cambiarSlide(1);
-}, 4000);
+  }, 4000);
+}
 /* ===========================================================
    SEGUIMIENTO DE CLICS EN ENLACES DE AFILIADO (Meta Pixel)
    Cada clic en "Ver en Amazon" registra un evento AmazonClick
