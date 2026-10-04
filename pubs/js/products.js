@@ -98,5 +98,35 @@ function renderNiche(nicheKey, gridSelector, filtersSelector, emptyStateSelector
   });
 
   draw("Todos");
+
+  (function(){
+    var items = (PRODUCTS[nicheKey] || []).map(function(p, i){
+      var m = (p.icon || "").match(/src='([^']+)'/);
+      var src = m ? m[1] : "";
+      if (src && src.indexOf("http") !== 0) src = "https://tiendahotspringsllc.com/" + src;
+      return {
+        "@type": "ListItem",
+        "position": i + 1,
+        "item": {
+          "@type": "Product",
+          "name": p.name,
+          "image": src,
+          "description": p.blurb,
+          "category": p.cat
+        }
+      };
+    });
+    var ld = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": document.title,
+      "itemListElement": items
+    };
+    var s = document.createElement("script");
+    s.type = "application/ld+json";
+    s.textContent = JSON.stringify(ld);
+    document.head.appendChild(s);
+  })();
+
 }
 

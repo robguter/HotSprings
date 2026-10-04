@@ -37,6 +37,16 @@
         <noscript><img height="1" width="1" style="display:none"
         src="https://www.facebook.com/tr?id=1060524906953580&ev=PageView&noscript=1"
         /></noscript>
+        
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Hot Springs LLC",
+            "url": "https://tiendahotspringsllc.com/"
+        }
+        </script>
+
         <!-- End Meta Pixel Code -->
     </head>
     <body data-niche="<?php echo $data_niche; ?>">
