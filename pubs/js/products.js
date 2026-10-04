@@ -8,6 +8,8 @@
 const PRODUCTS = {
 
   belleza: [
+    { name:"Funda de almohada de seda Blissy", cat:"Piel", blurb:"Funda 100% seda de morera 22 momme: no absorbe tus cremas, reduce las líneas de sueño y deja el pelo sin frizz al despertar.", precio:"$57.98 – $109.95", icon:"<img src='images/belleza/belleza_01.webp' >", asin:"B0BFDH1DL4" },
+    { name:"Mascarilla nocturna de colágeno LAPCOS, 4 pzas", cat:"Piel", blurb:"El secreto coreano del glass skin: mascarilla de hidrogel con colágeno, te duermes con ella y despiertas con la piel hidratada y luminosa.", precio:"$19.00 – $29.00", icon:"<img src='images/belleza/belleza_02.webp' >", asin:"B0DTQ11K1B" },
     { name:"Estée Lauder Dream Skin In One Sleep, Set 4 piezas", cat:"Piel", blurb:"Limpiador, sérum, hidratante y tratamiento nocturno de una marca de lujo reconocida.", precio:"$45.00", icon:"<img src='images/belleza/belleza_01.webp' >", asin:"B0FNRT96B8" },
     { name:"Set de brochas de maquillaje profesional, edición viaje", cat:"Maquillaje", blurb:"Cerdas suaves y mango ergonómico, con estuche compacto para llevar a cualquier lado.", precio:"$9.99 – $24.99", icon:"<img src='images/belleza/belleza_02.webp' >", asin:"B0FLX6PPYT" },
     { name:"Remington Shine Therapy con Argán y Keratina, plancha de cabello", cat:"Cabello", blurb:"Placas con infusión de aceite de argán y keratina para reducir el frizz y dar brillo.", precio:"$33.99 – $79.98", icon:"<img src='images/belleza/belleza_03.webp' >", asin:"B09RTLFV3F" },
@@ -19,6 +21,9 @@ const PRODUCTS = {
   ],
 
   hogar: [
+    { name:"Humidificador nube de lluvia con luz", cat:"Ambiente", blurb:"Una nube que llueve de verdad, con sonido de lluvia real y luz de 7 colores. Humidifica, difunde tus aceites esenciales y decora.", precio:"$45.99 – $49.99", icon:"<img src='images/hogar/hogar_01.webp' >", asin:"B0CM8Q8884" },
+    { name:"Difusor de aceites esenciales ASAKUKI 500ML", cat:"Ambiente", blurb:"Vapor frío ultrasónico silencioso, 7 colores de luz LED, control remoto y apagado automático. Tu cuarto se vuelve spa.", precio:"$19.47 – $31.99", icon:"<img src='images/hogar/hogar_02.webp' >", asin:"B01MR4Y0CZ" },
+    { name:"Velas LED flotantes de Halloween, 20 pzas", cat:"Decoración", blurb:"20 velas LED que parecen flotar, con varita mágica para encenderlas de un gesto. Sin fuego ni cera, seguras con niños y mascotas.", precio:"$13.50 – $19.99", icon:"<img src='images/hogar/hogar_03.webp' >", asin:"B0FH9YBRNK" },
     { name:"Utopia Kitchen Set de Sartenes Antiadherentes, 3 piezas", cat:"Cocina", blurb:"Distribución de calor pareja para cocinar sin que se pegue, apto para inducción.", precio:"$34.99", icon:"<img src='images/hogar/hogar_01.webp' >", asin:"B073WFLD35" },
     { name:"Cosori TurboBlaze Freidora de Aire, 9-en-1, 6 Qt", cat:"Electrodomésticos", blurb:"Comidas crujientes usando una fracción del aceite habitual, con 5 niveles de velocidad.", precio:"$99.99 – $129.99", icon:"<img src='images/hogar/hogar_02.webp' >", asin:"B0C33CHG99" },
     { name:"HENCKELS Set de Cuchillos Profesional, 15 piezas", cat:"Cocina", blurb:"Filo duradero de acero inoxidable y balance cómodo para cortar a diario.", precio:"$149.95 – $169.93", icon:"<img src='images/hogar/hogar_03.webp' >", asin:"B00GHX5HGG" },
@@ -30,6 +35,9 @@ const PRODUCTS = {
   ],
 
   vida: [
+    { name:"Mini pistola de masaje Bob and Brad Q2 Pro", cat:"Fitness", blurb:"Recuperación de fisioterapeuta en tu bolsillo: percusión profunda con cabezal de calor y frío. Cabe en cualquier bolso, carga por USB-C.", precio:"$59.48 – $113.99", icon:"<img src='images/vida/vida_01.webp' >", asin:"B0D16W8531" },
+    { name:"Set de bandas de resistencia WHATAFIT", cat:"Fitness", blurb:"5 bandas de 10 a 30 lbs (combinables hasta 100 lbs) con manijas acolchadas, anclaje de puerta y bolsa de viaje. El gym que cabe en un cajón.", precio:"$19.55 – $42.49", icon:"<img src='images/vida/vida_02.webp' >", asin:"B0CGR95HBW" },
+    { name:"Despertador con simulación de amanecer", cat:"Bienestar", blurb:"Simula el amanecer 30 minutos antes de tu hora: la luz sube poco a poco como el sol y despiertas de forma natural, sin sobresaltos.", precio:"$39.99", icon:"<img src='images/vida/vida_03.webp' >", asin:"B0C8TTCQDL" },
     { name:"Travelers Club Chicago Maleta Rígida Expandible, 22\" Carry-On", cat:"Equipaje", blurb:"Resistente a golpes y fácil de maniobrar entre pasillos, con ruedas giratorias 360°.", precio:"$48.00 – $74.79", icon:"<img src='images/vida/vida_01.webp' >", asin:"B0787DL55W" },
     { name:"WENIG Mochila Antirrobo con Puerto USB, 15.6\"", cat:"Equipaje", blurb:"Compartimientos ocultos y carga para el celular en movimiento, resistente al agua.", precio:"$19.99 – $26.99", icon:"<img src='images/vida/vida_02.webp' >", asin:"B07YF1RWYV" },
     { name:"BAGAIL Set de 8 Cubos Organizadores para Maleta", cat:"Equipaje", blurb:"Empaca por categoría y encuentra todo sin desarmar la maleta.", precio:"$16.98 – $34.99", icon:"<img src='images/vida/vida_03.webp' >", asin:"B0C58697GB" },
