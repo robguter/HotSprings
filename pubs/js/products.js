@@ -104,17 +104,31 @@ function renderNiche(nicheKey, gridSelector, filtersSelector, emptyStateSelector
       var m = (p.icon || "").match(/src='([^']+)'/);
       var src = m ? m[1] : "";
       if (src && src.indexOf("http") !== 0) src = "https://tiendahotspringsllc.com/" + src;
+
+      var precioNum = (p.precio || "").replace(/[^0-9.,––-]/g, "").split(/[––-]/)[0];
+      var prod = {
+        "@type": "Product",
+        "name": p.name,
+        "image": src,
+        "description": p.blurb,
+        "category": p.cat
+      };
+      if (precioNum) {
+        prod.offers = {
+          "@type": "Offer",
+          "priceCurrency": "USD",
+          "price": precioNum,
+          "availability": "https://schema.org/InStock",
+          "url": buildAmazonLink(p)
+        };
+      }
       return {
         "@type": "ListItem",
         "position": i + 1,
-        "item": {
-          "@type": "Product",
-          "name": p.name,
-          "image": src,
-          "description": p.blurb,
-          "category": p.cat
-        }
+        "item": prod
       };
+
+
     });
     var ld = {
       "@context": "https://schema.org",
@@ -127,6 +141,4 @@ function renderNiche(nicheKey, gridSelector, filtersSelector, emptyStateSelector
     s.textContent = JSON.stringify(ld);
     document.head.appendChild(s);
   })();
-
 }
-
