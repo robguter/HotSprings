@@ -42,7 +42,7 @@
                 <div class="footer-grid">
                     <div class="footer-brand">
                         <a href="<?php echo $u_home; ?>" class="logo">
-                            <img src="images/hsllc.png" alt="Hot Springs LLC, logo" width="40" height="40">
+                            <img src="/images/hsllc.png" alt="Hot Springs LLC, logo" width="40" height="40">
                             <span class="logo-text"><strong>Hot Springs</strong><span><?php echo $f_tagline; ?></span></span>
                         </a>
                         <p><?php echo $f_desc; ?></p>
@@ -79,13 +79,13 @@
                 </div>
             </div>
         </footer>
-        <script src="js/main.js"></script>
+        <script src="/js/main.js"></script>
         <?php if (!empty($data_niche)): ?>
-            <script src="js/config.js"></script>
+            <script src="/js/config.js"></script>
             <?php if ($is_english): ?>
-                <script src="js/products_en.js"></script>
+                <script src="/js/products_en.js"></script>
             <?php else: ?>
-                <script src="js/products.js"></script>
+                <script src="/js/products.js"></script>
             <?php endif; ?>
             <script>renderNiche("<?php echo htmlspecialchars($data_niche); ?>", "#grid", "#filtros", "#vacio")</script>
         <?php endif; ?>

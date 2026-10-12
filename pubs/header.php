@@ -69,9 +69,9 @@
         <link rel="alternate" hreflang="en" href="<?php echo $hreflang_en; ?>">
         <link rel="alternate" hreflang="x-default" href="<?php echo $hreflang_es; ?>">
 
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="/css/style.css">
         <style>
             .lang-switcher{display:inline-flex;align-items:center;gap:.4rem;font-size:.85rem;font-weight:600;white-space:nowrap}
             .lang-switcher a{text-decoration:none;opacity:.55}
@@ -112,7 +112,7 @@
         <header class="site-header">
             <div class="wrap">
                 <a href="<?php echo $is_english ? '/en/' : '/'; ?>" class="logo" aria-label="<?php echo $aria_logo; ?>">
-                    <img src="images/hsllc.png" alt="Hot Springs LLC, logo" width="40" height="40">
+                    <img src="/images/hsllc.png" alt="Hot Springs LLC, logo" width="40" height="40">
                     <span class="logo-text">
                         <strong>Hot Springs</strong>
                         <span><?php echo $logo_sub; ?></span>
