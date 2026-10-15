@@ -15,8 +15,12 @@
         $n_belleza = 'Beauty & Care';
         $n_hogar   = 'Kitchen & Home';
         $n_vida    = 'Active Life & Travel';
-        $u_belleza = '/en/belleza'; $u_hogar = '/en/hogar'; $u_vida = '/en/vida';
-        $u_contacto = '/en/contacto'; $u_priv = '/en/privacidad'; $u_term = '/en/terminos';
+        $u_belleza = '/en/belleza';
+        $u_hogar = '/en/hogar';
+        $u_vida = '/en/vida';
+        $u_contacto = '/en/contacto';
+        $u_priv = '/en/privacidad';
+        $u_term = '/en/terminos';
         $u_home = '/en/';
     } else {
         $f_tagline = 'LLC · Tienda de recomendaciones';
@@ -32,8 +36,12 @@
         $n_belleza = 'Belleza y Cuidado';
         $n_hogar   = 'Cocina y Hogar';
         $n_vida    = 'Vida Activa y Viajes';
-        $u_belleza = 'belleza'; $u_hogar = 'hogar'; $u_vida = 'vida';
-        $u_contacto = 'contacto.php'; $u_priv = 'privacidad.php'; $u_term = 'terminos.php';
+        $u_belleza = 'belleza';
+        $u_hogar = 'hogar';
+        $u_vida = 'vida';
+        $u_contacto = 'contacto';
+        $u_priv = 'privacidad';
+        $u_term = 'terminos';
         $u_home = 'index';
     }
 ?>
