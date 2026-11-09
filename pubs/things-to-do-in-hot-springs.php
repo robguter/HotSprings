@@ -10,19 +10,19 @@
             // Carousel cards: real Hot Springs photos already on the site.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/entorno_natural.webp",
+                    "archivo" => "/images/entorno_natural.webp",
                     "alt" => "Natural landscape around Hot Springs",
                     "titulo" => "Park, Trails & Lakes",
                     "descripcion" => "Mountains, trails and clear-water lakes all around."
                 ],
                 [
-                    "archivo" => "images/piscina_termal.webp",
+                    "archivo" => "/images/piscina_termal.webp",
                     "alt" => "Outdoor thermal pool with steam rising",
                     "titulo" => "Thermal Water",
                     "descripcion" => "Hot spring water, straight from the mountain."
                 ],
                 [
-                    "archivo" => "images/spa_relax.webp",
+                    "archivo" => "/images/spa_relax.webp",
                     "alt" => "Spa and massage session",
                     "titulo" => "Bathhouse Row",
                     "descripcion" => "Eight historic bathhouses on Central Avenue."
@@ -76,15 +76,15 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/spa_relax.webp');">
                         <h3>Bathhouse Row &amp; the Fordyce</h3>
                         <p>Walk the row of eight historic bathhouses on Central Avenue. The Fordyce Bathhouse is now the park visitor center and museum — free to enter, and the best first stop to understand the place.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/piscina_termal.webp');">
                         <h3>Where You Can Still Soak</h3>
                         <p>Of the eight bathhouses, the Buckstaff and the Quapaw are the two where visitors can still soak in the thermal water today.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/lago_ouachita.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/lago_ouachita.webp');">
                         <h3>The Water Itself</h3>
                         <p>The water emerges at 143°F from 47 hot springs. There are no outdoor soaking pools in the park — soaking happens inside bathhouses and spas. In town, public filling stations let anyone fill jugs with the hot spring water for free.</p>
                     </div>
@@ -100,15 +100,15 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/entorno_natural.webp');">
                         <h3>The Grand Promenade</h3>
                         <p>A brick walkway running behind Bathhouse Row — the quiet way to walk the length of the row, above the street.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/entorno_natural.webp');">
                         <h3>Hot Springs Mountain Tower</h3>
                         <p>An observation tower above the city: ride the elevator up for views over the Ouachita Mountains.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/entorno_natural.webp');">
                         <h3>26 Miles of Trails</h3>
                         <p>The park's hiking trails include the Goat Rock viewpoint and the long Sunset Trail. Dogs on a leash are welcome on the trails.</p>
                     </div>

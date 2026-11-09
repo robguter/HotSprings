@@ -11,19 +11,19 @@
             // the guides they will point to arrive in week 2 of the plan.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/spa_relax.webp",
+                    "archivo" => "/images/spa_relax.webp",
                     "alt" => "Spa and massage session",
                     "titulo" => "Bathhouses & Spas",
                     "descripcion" => "Soak in a historic bathhouse on Bathhouse Row."
                 ],
                 [
-                    "archivo" => "images/piscina_termal.webp",
+                    "archivo" => "/images/piscina_termal.webp",
                     "alt" => "Outdoor thermal pool with steam rising",
                     "titulo" => "Thermal Springs",
                     "descripcion" => "Natural hot water, straight from the mountain."
                 ],
                 [
-                    "archivo" => "images/entorno_natural.webp",
+                    "archivo" => "/images/entorno_natural.webp",
                     "alt" => "Natural landscape around Hot Springs",
                     "titulo" => "National Park & Lakes",
                     "descripcion" => "Trails, mountains and clear-water lakes all around."
@@ -77,15 +77,15 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/piscina_termal.webp');">
                         <h3>The Thermal Springs</h3>
                         <p>Hot water comes out of the mountain at the heart of the city. There are no outdoor thermal pools in the park — the way to soak is inside a bathhouse.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/spa_relax.webp');">
                         <h3>Bathhouses &amp; Spas</h3>
                         <p>Eight historic bathhouses line Bathhouse Row. Start at the Fordyce Bathhouse — today the park visitor center and museum — then walk the row and the Grand Promenade behind it.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/entorno_natural.webp');">
                         <h3>National Park &amp; Trails</h3>
                         <p>The park sits inside the city, with 26 miles of hiking trails through the Ouachita Mountains — free to visit, and dogs on a leash are welcome on the trails.</p>
                     </div>

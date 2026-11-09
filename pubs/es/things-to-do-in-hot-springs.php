@@ -11,19 +11,19 @@
             // Carousel cards: real Hot Springs photos already on the site.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/entorno_natural.webp",
+                    "archivo" => "/images/entorno_natural.webp",
                     "alt" => "Paisaje natural alrededor de Hot Springs",
                     "titulo" => "Parque, senderos y lagos",
                     "descripcion" => "Montañas, senderos y lagos de aguas claras por todos lados."
                 ],
                 [
-                    "archivo" => "images/piscina_termal.webp",
+                    "archivo" => "/images/piscina_termal.webp",
                     "alt" => "Piscina termal al aire libre con vapor elevándose",
                     "titulo" => "Agua termal",
                     "descripcion" => "Agua de manantial caliente, directa de la montaña."
                 ],
                 [
-                    "archivo" => "images/spa_relax.webp",
+                    "archivo" => "/images/spa_relax.webp",
                     "alt" => "Sesión de spa y masaje",
                     "titulo" => "Bathhouse Row",
                     "descripcion" => "Ocho históricas casas de baños en Central Avenue."
@@ -77,15 +77,15 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/spa_relax.webp');">
                         <h3>Bathhouse Row y la Fordyce</h3>
                         <p>Recorre la hilera de ocho históricas casas de baños en Central Avenue. La Fordyce Bathhouse es hoy el centro de visitantes y museo del parque: la entrada es gratis y es la mejor primera parada para entender el lugar.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/piscina_termal.webp');">
                         <h3>Dónde todavía puedes sumergirte</h3>
                         <p>De las ocho casas de baños, la Buckstaff y la Quapaw son las dos donde los visitantes todavía pueden sumergirse en el agua termal hoy.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/lago_ouachita.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/lago_ouachita.webp');">
                         <h3>El agua en sí</h3>
                         <p>El agua brota a 143 °F desde 47 manantiales termales. No hay piscinas al aire libre para sumergirse en el parque: el baño se hace dentro de las casas de baños y los spas. En la ciudad, las estaciones públicas de llenado permiten que cualquiera llene garrafas con el agua termal, gratis.</p>
                     </div>
@@ -101,15 +101,15 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/entorno_natural.webp');">
                         <h3>The Grand Promenade</h3>
                         <p>Un paseo de ladrillos que corre detrás de Bathhouse Row: la manera tranquila de recorrer la hilera completa, por encima de la calle.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/entorno_natural.webp');">
                         <h3>Hot Springs Mountain Tower</h3>
                         <p>Una torre de observación sobre la ciudad: sube en el elevador para ver las montañas Ouachita.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/entorno_natural.webp');">
                         <h3>26 millas de senderos</h3>
                         <p>Los senderos del parque incluyen el mirador Goat Rock y el largo Sunset Trail. Los perros con correa son bienvenidos en los senderos.</p>
                     </div>
