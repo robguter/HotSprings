@@ -10,10 +10,10 @@
             // Carousel cards: real Hot Springs photos already on the site.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/spa_relax.webp",
-                    "alt" => "Spa and massage session",
-                    "titulo" => "Bathhouse Row",
-                    "descripcion" => "Eight historic bathhouses on Central Avenue."
+                    "archivo" => "images/entorno_natural.webp",
+                    "alt" => "Natural landscape around Hot Springs",
+                    "titulo" => "Park, Trails & Lakes",
+                    "descripcion" => "Mountains, trails and clear-water lakes all around."
                 ],
                 [
                     "archivo" => "images/piscina_termal.webp",
@@ -22,10 +22,10 @@
                     "descripcion" => "Hot spring water, straight from the mountain."
                 ],
                 [
-                    "archivo" => "images/entorno_natural.webp",
-                    "alt" => "Natural landscape around Hot Springs",
-                    "titulo" => "Park, Trails & Lakes",
-                    "descripcion" => "Mountains, trails and clear-water lakes all around."
+                    "archivo" => "images/spa_relax.webp",
+                    "alt" => "Spa and massage session",
+                    "titulo" => "Bathhouse Row",
+                    "descripcion" => "Eight historic bathhouses on Central Avenue."
                 ],
             ];
             ?>
@@ -84,7 +84,7 @@
                         <h3>Where You Can Still Soak</h3>
                         <p>Of the eight bathhouses, the Buckstaff and the Quapaw are the two where visitors can still soak in the thermal water today.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/lago_ouachita.webp');">
                         <h3>The Water Itself</h3>
                         <p>The water emerges at 143°F from 47 hot springs. There are no outdoor soaking pools in the park — soaking happens inside bathhouses and spas. In town, public filling stations let anyone fill jugs with the hot spring water for free.</p>
                     </div>

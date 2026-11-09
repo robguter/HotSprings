@@ -11,14 +11,14 @@
             // Carousel cards: real Hot Springs photos already on the site.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/spa_relax.webp",
-                    "alt" => "Sesión de spa y masaje",
+                    "archivo" => "images/hotel_habitacion.webp",
+                    "alt" => "Habitación de hotel luminosa por la mañana",
                     "titulo" => "Centro y Bathhouse Row",
                     "descripcion" => "Despierta a unos pasos de las históricas casas de baños."
                 ],
                 [
-                    "archivo" => "images/entorno_natural.webp",
-                    "alt" => "Paisaje natural alrededor de Hot Springs",
+                    "archivo" => "images/lago_ouachita.webp",
+                    "alt" => "El Lago Ouachita visto desde un mirador entre el bosque",
                     "titulo" => "Lake Hamilton",
                     "descripcion" => "Casas y condominios junto al lago y muelles al atardecer."
                 ],
@@ -77,12 +77,12 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/hotel_habitacion.webp');">
                         <h3>1. Centro y Bathhouse Row: mejor para quienes visitan por primera vez</h3>
                         <p>Despierta a unos pasos de las históricas casas de baños, el Fordyce Visitor Center (369 Central Ave) y el Grand Promenade. Entre los hoteles que los viajeros reservan aquí están el histórico Arlington Resort Hotel and Spa (239 Central Ave), The Waters Hotel en Bathhouse Row (340 Central Ave) y el pequeño Hotel Hale (341 Central Ave), una antigua casa de baños con tinas de inmersión en las suites. Pagarás más y el estacionamiento es más limitado, pero quizá no necesites el auto durante todo el fin de semana.</p>
                     </div>
                     <!-- BOOKING LINK: Downtown hotels — insert after approval -->
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/lago_ouachita.webp');">
                         <h3>2. Lake Hamilton: mejor para días de lago y grupos</h3>
                         <p>Casas vacacionales, condominios y alojamientos junto al lago, a unos 15 o 20 minutos del centro. Es la opción adecuada si vas a alquilar un bote, viajas en grupo o te quedas tres noches o más y quieres una cocina y un muelle al atardecer. Planea ir en auto al centro para los baños: el lago es la base, no la casa de baños.</p>
                     </div>

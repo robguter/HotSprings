@@ -10,14 +10,14 @@
             // Carousel cards: real Hot Springs photos already on the site.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/spa_relax.webp",
-                    "alt" => "Spa and massage session",
+                    "archivo" => "images/hotel_habitacion.webp",
+                    "alt" => "Bright hotel room in the morning",
                     "titulo" => "Downtown & Bathhouse Row",
                     "descripcion" => "Wake up steps from the historic bathhouses."
                 ],
                 [
-                    "archivo" => "images/entorno_natural.webp",
-                    "alt" => "Natural landscape around Hot Springs",
+                    "archivo" => "images/lago_ouachita.webp",
+                    "alt" => "Lake Ouachita seen from a forested overlook",
                     "titulo" => "Lake Hamilton",
                     "descripcion" => "Lakeside homes, condos and sunset docks."
                 ],
@@ -76,12 +76,12 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('images/hotel_habitacion.webp');">
                         <h3>1. Downtown &amp; Bathhouse Row — best for first-time visitors</h3>
                         <p>Wake up steps from the historic bathhouses, the Fordyce Visitor Center (369 Central Ave) and the Grand Promenade. The hotels travelers book here include the historic Arlington Resort Hotel and Spa (239 Central Ave), The Waters Hotel on Bathhouse Row (340 Central Ave) and the small Hotel Hale (341 Central Ave), a former bathhouse with soaking tubs in the suites. You will pay more, and parking is tighter — but you may not need your car all weekend.</p>
                     </div>
                     <!-- BOOKING LINK: Downtown hotels — insert after approval -->
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('images/lago_ouachita.webp');">
                         <h3>2. Lake Hamilton — best for lake days and groups</h3>
                         <p>Vacation homes, condos and lakeside stays about 15 to 20 minutes from downtown. This is the pick if you are renting a boat, traveling with a group, or staying three or more nights and want a kitchen and a dock at sunset. Plan to drive downtown for the baths — the lake is the base, not the bathhouse.</p>
                     </div>

@@ -11,10 +11,10 @@
             // Carousel cards: real Hot Springs photos already on the site.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/spa_relax.webp",
-                    "alt" => "Sesión de spa y masaje",
-                    "titulo" => "Bathhouse Row",
-                    "descripcion" => "Ocho históricas casas de baños en Central Avenue."
+                    "archivo" => "images/entorno_natural.webp",
+                    "alt" => "Paisaje natural alrededor de Hot Springs",
+                    "titulo" => "Parque, senderos y lagos",
+                    "descripcion" => "Montañas, senderos y lagos de aguas claras por todos lados."
                 ],
                 [
                     "archivo" => "images/piscina_termal.webp",
@@ -23,10 +23,10 @@
                     "descripcion" => "Agua de manantial caliente, directa de la montaña."
                 ],
                 [
-                    "archivo" => "images/entorno_natural.webp",
-                    "alt" => "Paisaje natural alrededor de Hot Springs",
-                    "titulo" => "Parque, senderos y lagos",
-                    "descripcion" => "Montañas, senderos y lagos de aguas claras por todos lados."
+                    "archivo" => "images/spa_relax.webp",
+                    "alt" => "Sesión de spa y masaje",
+                    "titulo" => "Bathhouse Row",
+                    "descripcion" => "Ocho históricas casas de baños en Central Avenue."
                 ],
             ];
             ?>
@@ -85,7 +85,7 @@
                         <h3>Dónde todavía puedes sumergirte</h3>
                         <p>De las ocho casas de baños, la Buckstaff y la Quapaw son las dos donde los visitantes todavía pueden sumergirse en el agua termal hoy.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/lago_ouachita.webp');">
                         <h3>El agua en sí</h3>
                         <p>El agua brota a 143 °F desde 47 manantiales termales. No hay piscinas al aire libre para sumergirse en el parque: el baño se hace dentro de las casas de baños y los spas. En la ciudad, las estaciones públicas de llenado permiten que cualquiera llene garrafas con el agua termal, gratis.</p>
                     </div>

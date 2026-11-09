@@ -10,20 +10,20 @@
             // Carousel cards: real Hot Springs photos already on the site.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/spa_relax.webp",
-                    "alt" => "Spa and massage session",
+                    "archivo" => "images/piscina_termal.webp",
+                    "alt" => "Outdoor thermal pool with steam rising",
                     "titulo" => "Day 1 — Bathhouse Row",
                     "descripcion" => "The thermal baths and the historic row."
                 ],
                 [
-                    "archivo" => "images/entorno_natural.webp",
-                    "alt" => "Natural landscape around Hot Springs",
+                    "archivo" => "images/lago_ouachita.webp",
+                    "alt" => "Lake Ouachita seen from a forested overlook",
                     "titulo" => "Day 2 — Gardens & Lake",
                     "descripcion" => "Garvan Gardens, the chapel and Lake Hamilton."
                 ],
                 [
-                    "archivo" => "images/piscina_termal.webp",
-                    "alt" => "Outdoor thermal pool with steam rising",
+                    "archivo" => "images/spa_relax.webp",
+                    "alt" => "Spa and massage session",
                     "titulo" => "Thermal Water",
                     "descripcion" => "Hot spring water, straight from the mountain."
                 ],
@@ -84,7 +84,7 @@
                         <h3>Then soak</h3>
                         <p>Choose your ritual: the Buckstaff, operating since 1912, for the traditional private-tub bath, or Quapaw Baths and Spa for modern thermal pools. On the way, fill a jug at one of the hot-water jug fountains — the locals do.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/entorno_natural.webp');">
                         <h3>Dinner on Central Avenue</h3>
                         <p>Finish with dinner on Central Avenue and a drink at Superior Bathhouse Brewery — the brewery inside the national park that brews its beer with thermal water.</p>
                     </div>
@@ -105,7 +105,7 @@
                         <h3>Garvan Woodland Gardens</h3>
                         <p>Morning at Garvan Woodland Gardens (550 Arkridge Rd) — 210 acres of gardens on Lake Hamilton. Go early, and see the Anthony Chapel in the quiet light before the crowds.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/lago_ouachita.webp');">
                         <h3>Afternoon on Lake Hamilton</h3>
                         <p>Rent a boat, take a duck tour, or keep it simple with a long lakeside lunch. The lake is the second half of the Hot Springs trip — do not skip it for more downtown.</p>
                     </div>

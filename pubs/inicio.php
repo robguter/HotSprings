@@ -11,16 +11,16 @@
             // the guides they will point to arrive in week 2 of the plan.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/piscina_termal.webp",
-                    "alt" => "Outdoor thermal pool with steam rising",
-                    "titulo" => "Thermal Springs",
-                    "descripcion" => "Natural hot water, straight from the mountain."
-                ],
-                [
                     "archivo" => "images/spa_relax.webp",
                     "alt" => "Spa and massage session",
                     "titulo" => "Bathhouses & Spas",
                     "descripcion" => "Soak in a historic bathhouse on Bathhouse Row."
+                ],
+                [
+                    "archivo" => "images/piscina_termal.webp",
+                    "alt" => "Outdoor thermal pool with steam rising",
+                    "titulo" => "Thermal Springs",
+                    "descripcion" => "Natural hot water, straight from the mountain."
                 ],
                 [
                     "archivo" => "images/entorno_natural.webp",

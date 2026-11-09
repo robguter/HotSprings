@@ -11,20 +11,20 @@
             // Carousel cards: real Hot Springs photos already on the site.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/spa_relax.webp",
-                    "alt" => "Sesión de spa y masaje",
+                    "archivo" => "images/piscina_termal.webp",
+                    "alt" => "Piscina termal al aire libre con vapor elevándose",
                     "titulo" => "Día 1 — Bathhouse Row",
                     "descripcion" => "Los baños termales y la histórica calle de casas de baños."
                 ],
                 [
-                    "archivo" => "images/entorno_natural.webp",
-                    "alt" => "Paisaje natural alrededor de Hot Springs",
+                    "archivo" => "images/lago_ouachita.webp",
+                    "alt" => "El Lago Ouachita visto desde un mirador entre el bosque",
                     "titulo" => "Día 2 — Jardines y lago",
                     "descripcion" => "Garvan Gardens, la capilla y Lake Hamilton."
                 ],
                 [
-                    "archivo" => "images/piscina_termal.webp",
-                    "alt" => "Piscina termal al aire libre con vapor elevándose",
+                    "archivo" => "images/spa_relax.webp",
+                    "alt" => "Sesión de spa y masaje",
                     "titulo" => "Agua termal",
                     "descripcion" => "Agua caliente de manantial, directamente de la montaña."
                 ],
@@ -85,7 +85,7 @@
                         <h3>Después, a remojarse</h3>
                         <p>Elige tu ritual: el Buckstaff, en funcionamiento desde 1912, para el tradicional baño en tina privada, o Quapaw Baths and Spa para las modernas piscinas termales. En el camino, llena una jarra en una de las fuentes de agua caliente: los habitantes locales lo hacen.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/entorno_natural.webp');">
                         <h3>Cena en Central Avenue</h3>
                         <p>Termina con una cena en Central Avenue y una bebida en Superior Bathhouse Brewery, la cervecería dentro del parque nacional que elabora su cerveza con agua termal.</p>
                     </div>
@@ -106,7 +106,7 @@
                         <h3>Garvan Woodland Gardens</h3>
                         <p>La mañana en Garvan Woodland Gardens (550 Arkridge Rd): 210 acres de jardines junto a Lake Hamilton. Ve temprano y visita la Anthony Chapel con la luz tranquila, antes de que llegue la multitud.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('images/lago_ouachita.webp');">
                         <h3>Tarde en Lake Hamilton</h3>
                         <p>Alquila un bote, haz un tour en vehículo anfibio o simplemente disfruta un almuerzo prolongado junto al lago. El lago es la segunda mitad del viaje a Hot Springs: no lo saltes por pasar más tiempo en el centro.</p>
                     </div>
