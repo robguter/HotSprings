@@ -1,77 +1,77 @@
 <?php
-    // contacto.php - Página de Soporte Funcional de Hot Springs LLC
-    $meta_title = "Contacto y Soporte - Hot Springs";
-    $meta_description = "Formulario de contacto oficial de Hot Springs LLC. Escríbenos para dudas, sugerencias o colaboraciones sobre el cuidado de perros senior.";
+    // contacto.php - Functional Support Page of Hot Springs LLC
+    $meta_title = "Contact & Support - Hot Springs";
+    $meta_description = "Official contact form for Hot Springs LLC. Write to us with questions, suggestions or collaboration ideas about visiting Hot Springs, Arkansas.";
     $canonical = "https://tiendahotspringsllc.com/contacto";
       $data_niche ="";
 
     require_once 'header.php';
 
     // ==========================================================================
-    // LÓGICA DE PROCESAMIENTO Y ENVÍO DEL CORREO (PHP PURO)
+    // FORM PROCESSING AND EMAIL SENDING LOGIC (PURE PHP)
     // ==========================================================================
-    $mensaje_resultado = ""; // Variable para mostrar alertas en pantalla
+    $mensaje_resultado = ""; // Variable to display alerts on screen
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        // Sanitizar las entradas del usuario para evitar hackeos o inyecciones
+        // Sanitize user input to prevent hacking or injections
         $nombre = strip_tags(trim($_POST["nombre"]));
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $mensaje = strip_tags(trim($_POST["mensaje"]));
         
         $destinatario = "admin@tiendahotspringsllc.com";
-        $asunto = "Nuevo mensaje de soporte en Hot Springs: $nombre";
+        $asunto = "New support message on Hot Springs: $nombre";
         
-        $contenido_email = "Has recibido un nuevo mensaje desde el formulario de contacto de tu web.\n\n";
-        $contenido_email .= "Nombre: $nombre\n";
-        $contenido_email .= "Correo: $email\n\n";
-        $contenido_email .= "Mensaje:\n$mensaje\n";
+        $contenido_email = "You have received a new message from your website's contact form.\n\n";
+        $contenido_email .= "Name: $nombre\n";
+        $contenido_email .= "Email: $email\n\n";
+        $contenido_email .= "Message:\n$mensaje\n";
 
-        // Encabezados obligatorios para que el correo no caiga en la carpeta de SPAM
-        $cabeceras = "From: web@tiendahotspringsllc.com\r\n"; // El remitente debe ser un correo de tu propio dominio
-        $cabeceras .= "Reply-To: $email\r\n";          // Si le das a 'Responder', le llegará directo al cliente
+        // Required headers so the email does not land in the SPAM folder
+        $cabeceras = "From: web@tiendahotspringsllc.com\r\n"; // The sender must be an email address on your own domain
+        $cabeceras .= "Reply-To: $email\r\n";          // If you hit 'Reply', it goes straight to the visitor
         $cabeceras .= "X-Mailer: PHP/" . phpversion();
         
         if (mail($destinatario, $asunto, $contenido_email, $cabeceras)) {
-            $mensaje_resultado = "<div style='background: #d4edda; color: #155724; padding: 15px; border-radius: 6px; margin-bottom: 20px; text-align: center; font-weight: bold;'>¡Mensaje enviado con éxito! Te responderemos muy pronto.</div>";
+            $mensaje_resultado = "<div style='background: #d4edda; color: #155724; padding: 15px; border-radius: 6px; margin-bottom: 20px; text-align: center; font-weight: bold;'>Message sent successfully! We will get back to you very soon.</div>";
         } else {
-            $mensaje_resultado = "<div style='background: #f8d7da; color: #721c24; padding: 15px; border-radius: 6px; margin-bottom: 20px; text-align: center; font-weight: bold;'>Error: El servidor no pudo enviar tu mensaje. Inténtalo más tarde.</div>";
+            $mensaje_resultado = "<div style='background: #f8d7da; color: #721c24; padding: 15px; border-radius: 6px; margin-bottom: 20px; text-align: center; font-weight: bold;'>Error: The server could not send your message. Please try again later.</div>";
         }
     }
 ?>
 
 <section class="niche-hero">
   <div class="wrap">
-    <p class="breadcrumb"><a href="index">Inicio</a> / Contacto y Soporte</p>
-    <h1>Contacto y Soporte</h1>
-    <p>¿Tienes una pregunta sobre algún producto o una sugerencia para el catálogo? Escríbenos.</p>
+    <p class="breadcrumb"><a href="index">Home</a> / Contact & Support</p>
+    <h1>Contact & Support</h1>
+    <p>Do you have a question about visiting Hot Springs, or a suggestion for our guides? Write to us.</p>
   </div>
 </section>
 <main class="contenedor-productos">
 
-    <!-- MUESTRA LA ALERTA DE ÉXITO O ERROR EN PANTALLA -->
+    <!-- DISPLAYS THE SUCCESS OR ERROR ALERT ON SCREEN -->
     <?php echo $mensaje_resultado; ?>
 
-    <!-- FORMULARIO CON ACTION APUNTANDO A SÍ MISMO PARA PROCESAR EL POST -->
+    <!-- FORM WITH ACTION POINTING TO ITSELF TO PROCESS THE POST -->
     <div class="producto-card producto-card--form">
         <form action="contacto" method="POST" style="display: flex; flex-direction: column; gap: 20px;">
             
             <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label style="font-weight: 600; font-size: 0.95rem;">Nombre Completo:</label>
+                <label style="font-weight: 600; font-size: 0.95rem;">Full Name:</label>
                 <input type="text" name="nombre" required style="padding: 12px; border: 1px solid var(--gris-borde); border-radius: 6px; font-family: inherit;">
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label style="font-weight: 600; font-size: 0.95rem;">Correo Electrónico:</label>
+                <label style="font-weight: 600; font-size: 0.95rem;">Email Address:</label>
                 <input type="email" name="email" required style="padding: 12px; border: 1px solid var(--gris-borde); border-radius: 6px; font-family: inherit;">
             </div>
 
             <div style="display: flex; flex-direction: column; gap: 5px;">
-                <label style="font-weight: 600; font-size: 0.95rem;">Tu Mensaje o Consulta:</label>
+                <label style="font-weight: 600; font-size: 0.95rem;">Your Message or Question:</label>
                 <textarea name="mensaje" rows="6" required style="padding: 12px; border: 1px solid var(--gris-borde); border-radius: 6px; font-family: inherit; resize: vertical;"></textarea>
             </div>
 
             <button type="submit" class="btn-ver-amazon" style="border: none; cursor: pointer; width: 100%;">
-                Enviar Mensaje →
+                Send Message →
             </button>
         </form>
     </div>

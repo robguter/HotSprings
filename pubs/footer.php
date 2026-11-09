@@ -1,48 +1,52 @@
 <?php
-    // footer.php — bilingüe. $is_english viene del header (front controller).
-    $is_english = isset($is_english) ? $is_english : false;
-    if ($is_english) {
-        $f_tagline = 'LLC · Recommendation store';
-        $f_desc    = 'Amazon product recommendations in beauty, home and active living.';
-        $f_nichos  = 'Niches';
-        $f_siguenos = 'Follow us';
-        $f_legal   = 'Transparency & Support';
-        $f_contacto = 'Contact & Support';
-        $f_priv    = 'Privacy Policy';
-        $f_term    = 'Terms of Service';
-        $f_rights  = 'All rights reserved.';
-        $f_assoc   = 'As an Amazon Associate, we earn from qualifying purchases.';
-        $n_belleza = 'Beauty & Care';
-        $n_hogar   = 'Kitchen & Home';
-        $n_vida    = 'Active Life & Travel';
-        $u_belleza = '/en/belleza';
-        $u_hogar = '/en/hogar';
-        $u_vida = '/en/vida';
-        $u_contacto = '/en/contacto';
-        $u_priv = '/en/privacidad';
-        $u_term = '/en/terminos';
-        $u_home = '/en/';
-    } else {
-        $f_tagline = 'LLC · Tienda de recomendaciones';
-        $f_desc    = 'Recomendaciones de productos de Amazon en belleza, hogar y vida activa.';
-        $f_nichos  = 'Nichos';
-        $f_siguenos = 'Síguenos';
+    // footer.php — bilingüe. $is_spanish viene del header.
+    $is_spanish = isset($is_spanish) ? $is_spanish : false;
+    if ($is_spanish) {
+        $f_tagline = 'Arkansas · Guía de Viajes';
+        $f_desc    = 'Una guía de viajes gratuita de Hot Springs, Arkansas: las casas de baño de Bathhouse Row, el parque nacional y los lagos — dónde dormir y qué hacer en 2 días.';
+        $f_guias   = 'Guías';
+        $f_plan    = 'Planifica tu viaje';
         $f_legal   = 'Transparencia y Soporte';
         $f_contacto = 'Contacto y Soporte';
         $f_priv    = 'Política de Privacidad';
         $f_term    = 'Términos del Servicio';
         $f_rights  = 'Todos los derechos reservados.';
-        $f_assoc   = 'Como Afiliado de Amazon, ganamos por las compras que califican.';
-        $n_belleza = 'Belleza y Cuidado';
-        $n_hogar   = 'Cocina y Hogar';
-        $n_vida    = 'Vida Activa y Viajes';
-        $u_belleza = 'belleza';
-        $u_hogar = 'hogar';
-        $u_vida = 'vida';
-        $u_contacto = 'contacto';
-        $u_priv = 'privacidad';
-        $u_term = 'terminos';
-        $u_home = 'index';
+        $f_assoc   = 'Algunos enlaces de este sitio son enlaces de afiliado. Si reservas a través de ellos, podemos ganar una comisión sin costo extra para ti.';
+        $g_things  = 'Qué Hacer';
+        $g_stay    = 'Dónde Dormir';
+        $g_itin    = 'Itinerario de 2 Días';
+        $p_start   = 'Empieza por el agua';
+        $p_plan    = 'El plan de 2 días';
+        $p_home    = 'Inicio';
+        $u_home    = '/es/';
+        $u_things  = '/es/things-to-do-in-hot-springs';
+        $u_stay    = '/es/where-to-stay-in-hot-springs';
+        $u_itin    = '/es/hot-springs-2-day-itinerary';
+        $u_start   = '/es/#guias';
+        $u_plan    = '/es/#plan';
+    } else {
+        $f_tagline = 'Arkansas · Travel Guide';
+        $f_desc    = 'A free travel guide to Hot Springs, Arkansas: the bathhouses on Bathhouse Row, the national park and the lakes — where to stay and what to do in 2 days.';
+        $f_guias   = 'Guides';
+        $f_plan    = 'Plan your trip';
+        $f_legal   = 'Transparency & Support';
+        $f_contacto = 'Contact & Support';
+        $f_priv    = 'Privacy Policy';
+        $f_term    = 'Terms of Service';
+        $f_rights  = 'All rights reserved.';
+        $f_assoc   = 'Some links on this site are affiliate links. If you book through them, we may earn a commission at no extra cost to you.';
+        $g_things  = 'Things to Do';
+        $g_stay    = 'Where to Stay';
+        $g_itin    = '2-Day Itinerary';
+        $p_start   = 'Start with the water';
+        $p_plan    = 'The 2-day plan';
+        $p_home    = 'Home';
+        $u_home    = '/';
+        $u_things  = '/things-to-do-in-hot-springs';
+        $u_stay    = '/where-to-stay-in-hot-springs';
+        $u_itin    = '/hot-springs-2-day-itinerary';
+        $u_start   = '/#guias';
+        $u_plan    = '/#plan';
     }
 ?>
 <footer class="site-footer">
@@ -56,28 +60,28 @@
                         <p><?php echo $f_desc; ?></p>
                     </div>
                     <div class="footer-col">
-                        <h5><?php echo $f_nichos; ?></h5>
+                        <h5><?php echo $f_guias; ?></h5>
                         <ul>
-                            <li><a href="<?php echo $u_belleza; ?>"><?php echo $n_belleza; ?></a></li>
-                            <li><a href="<?php echo $u_hogar; ?>"><?php echo $n_hogar; ?></a></li>
-                            <li><a href="<?php echo $u_vida; ?>"><?php echo $n_vida; ?></a></li>
+                            <li><a href="<?php echo $u_things; ?>"><?php echo $g_things; ?></a></li>
+                            <li><a href="<?php echo $u_stay; ?>"><?php echo $g_stay; ?></a></li>
+                            <li><a href="<?php echo $u_itin; ?>"><?php echo $g_itin; ?></a></li>
                         </ul>
                     </div>
                     <div class="footer-col">
-                        <h5><?php echo $f_siguenos; ?></h5>
+                        <h5><?php echo $f_plan; ?></h5>
                         <ul>
-                            <li><a href="https://www.facebook.com/robguter" target="_blank" rel="noopener">Facebook</a></li>
-                            <li><a href="https://www.instagram.com/robert_gutierrez_gomez/" target="_blank" rel="noopener">Instagram</a></li>
-                            <li><a href="https://twitter.com/" target="_blank" rel="noopener">Twitter / X</a></li>
+                            <li><a href="<?php echo $u_start; ?>"><?php echo $p_start; ?></a></li>
+                            <li><a href="<?php echo $u_plan; ?>"><?php echo $p_plan; ?></a></li>
+                            <li><a href="<?php echo $u_home; ?>"><?php echo $p_home; ?></a></li>
                         </ul>
                     </div>
                     <!-- Columna 3: Legal y Soporte -->
                     <div class="footer-col">
                         <h5><?php echo $f_legal; ?></h5>
                         <ul>
-                            <li><a href="<?php echo $u_contacto; ?>"><?php echo $f_contacto; ?></a></li>
-                            <li><a href="<?php echo $u_priv; ?>"><?php echo $f_priv; ?></a></li>
-                            <li><a href="<?php echo $u_term; ?>"><?php echo $f_term; ?></a></li>
+                            <li><a href="/contacto"><?php echo $f_contacto; ?></a></li>
+                            <li><a href="/privacidad"><?php echo $f_priv; ?></a></li>
+                            <li><a href="/terminos"><?php echo $f_term; ?></a></li>
                         </ul>
                     </div>
                 </div>
@@ -88,14 +92,5 @@
             </div>
         </footer>
         <script src="/js/main.js"></script>
-        <?php if (!empty($data_niche)): ?>
-            <script src="/js/config.js"></script>
-            <?php if ($is_english): ?>
-                <script src="/js/products_en.js"></script>
-            <?php else: ?>
-                <script src="/js/products.js"></script>
-            <?php endif; ?>
-            <script>renderNiche("<?php echo htmlspecialchars($data_niche); ?>", "#grid", "#filtros", "#vacio")</script>
-        <?php endif; ?>
     </body>
 </html>
