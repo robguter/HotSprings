@@ -215,14 +215,15 @@ button{ font-family:inherit; cursor:pointer; }
   position: relative; 
   overflow: hidden;
   border-radius: var(--radius-m);
-  padding: var(--space-3) var(--space-2); /* Aumentamos el padding para dar más aire a los lados y abajo */
+  padding: calc(190px + var(--space-2)) var(--space-2) var(--space-3); /* Aumentamos el padding para dar más aire a los lados y abajo */
   color: var(--mist);
-  min-height: 280px;
+  background: var(--deep-teal-2);
+  min-height: 0;
   
   /* CAMBIO CLAVE: Cambiamos flex-direction a column normal y justificamos al fondo */
   display: flex; 
   flex-direction: column; 
-  justify-content: flex-end; 
+  justify-content: flex-start; 
   align-items: flex-start;
   isolation: isolate;
 }
@@ -231,11 +232,10 @@ button{ font-family:inherit; cursor:pointer; }
 .spring-panel::before {
   content: ''; 
   position: absolute; 
-  inset: 0; 
+  top: 0; left: 0; right: 0; height: 190px; 
   z-index: -1;
   /* Mezclamos tu color base con un degradado que se va haciendo negro abajo para rescatar las letras blancas */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.55) 100%), 
-              var(--panel-bg);
+  background: var(--panel-bg);
   background-size: cover;
   background-position: center;
 }
