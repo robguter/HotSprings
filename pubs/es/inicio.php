@@ -12,16 +12,16 @@
             // the guides they will point to arrive in week 2 of the plan.
             $imagenes_hotsprings = [
                 [
-                    "archivo" => "images/piscina_termal.webp",
-                    "alt" => "Piscina termal al aire libre con vapor elevándose",
-                    "titulo" => "Aguas termales",
-                    "descripcion" => "Agua caliente natural, directa de la montaña."
-                ],
-                [
                     "archivo" => "images/spa_relax.webp",
                     "alt" => "Sesión de spa y masaje",
                     "titulo" => "Casas de baños y spas",
                     "descripcion" => "Sumérgete en una histórica casa de baños en Bathhouse Row."
+                ],
+                [
+                    "archivo" => "images/piscina_termal.webp",
+                    "alt" => "Piscina termal al aire libre con vapor elevándose",
+                    "titulo" => "Aguas termales",
+                    "descripcion" => "Agua caliente natural, directa de la montaña."
                 ],
                 [
                     "archivo" => "images/entorno_natural.webp",
