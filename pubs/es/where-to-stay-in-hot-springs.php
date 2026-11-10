@@ -77,17 +77,17 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/hotel_habitacion.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/hotel_habitacion.webp');">
                         <h3>1. Centro y Bathhouse Row: mejor para quienes visitan por primera vez</h3>
                         <p>Despierta a unos pasos de las históricas casas de baños, el Fordyce Visitor Center (369 Central Ave) y el Grand Promenade. Entre los hoteles que los viajeros reservan aquí están el histórico Arlington Resort Hotel and Spa (239 Central Ave), The Waters Hotel en Bathhouse Row (340 Central Ave) y el pequeño Hotel Hale (341 Central Ave), una antigua casa de baños con tinas de inmersión en las suites. Pagarás más y el estacionamiento es más limitado, pero quizá no necesites el auto durante todo el fin de semana.</p>
                     </div>
                     <!-- BOOKING LINK: Downtown hotels — insert after approval -->
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/lago_ouachita.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita.webp');">
                         <h3>2. Lake Hamilton: mejor para días de lago y grupos</h3>
                         <p>Casas vacacionales, condominios y alojamientos junto al lago, a unos 15 o 20 minutos del centro. Es la opción adecuada si vas a alquilar un bote, viajas en grupo o te quedas tres noches o más y quieres una cocina y un muelle al atardecer. Planea ir en auto al centro para los baños: el lago es la base, no la casa de baños.</p>
                     </div>
                     <!-- BOOKING LINK: Lake Hamilton stays — insert after approval -->
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/piscina_termal.webp');">
                         <h3>3. Central Avenue y Oaklawn: mejor para familias y buena relación calidad-precio</h3>
                         <p>Hoteles de cadena y suites cerca de Oaklawn Racing Casino Resort (2705 Central Ave), Magic Springs y el centro de convenciones; por ejemplo, Embassy Suites junto al centro de convenciones (400 Convention Blvd). Estacionamiento más fácil, desayuno incluido en muchas propiedades y un trayecto corto en auto hasta Bathhouse Row. Para la mayoría de las familias, es la mejor relación calidad-precio por noche en la ciudad.</p>
                     </div>

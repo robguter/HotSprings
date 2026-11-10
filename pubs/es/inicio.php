@@ -64,15 +64,15 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/piscina_termal.webp');">
                         <h3>Las aguas termales</h3>
                         <p>El agua caliente sale de la montaña en el corazón de la ciudad. No hay piscinas termales al aire libre en el parque: la manera de sumergirse es dentro de una casa de baños.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/spa_relax.webp');">
                         <h3>Casas de baños y spas</h3>
                         <p>Ocho históricas casas de baños bordean Bathhouse Row. Empieza en la Fordyce Bathhouse — hoy el centro de visitantes y museo del parque — y después recorre la hilera y el Grand Promenade que está detrás.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/entorno_natural.webp');">
                         <h3>Parque nacional y senderos</h3>
                         <p>El parque está dentro de la ciudad, con 26 millas de senderos entre las montañas Ouachita: la visita es gratis y los perros con correa son bienvenidos en los senderos.</p>
                     </div>

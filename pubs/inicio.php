@@ -69,11 +69,11 @@
                         <p>Hot water comes out of the mountain at the heart of the city.
                             There are no outdoor thermal pools in the park — the way to soak is inside a bathhouse.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/spa_relax.webp');">
                         <h3>Bathhouses &amp; Spas</h3>
                         <p>Eight historic bathhouses line Bathhouse Row. Start at the Fordyce Bathhouse — today the park visitor center and museum — then walk the row and the Grand Promenade behind it.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/entorno_natural.webp');">
                         <h3>National Park &amp; Trails</h3>
                         <p>The park sits inside the city, with 26 miles of hiking trails through the Ouachita Mountains — free to visit, and dogs on a leash are welcome on the trails.</p>
                     </div>
