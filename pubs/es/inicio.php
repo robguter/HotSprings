@@ -31,7 +31,11 @@
                 ],
             ];
             ?>
-        <section class="hero">
+        <section class="hero hero--video">
+            <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="/images/piscina_termal.webp">
+                <source src="/images/video-portada.webm" type="video/webm">
+                <source src="/images/video-portada.mp4" type="video/mp4">
+            </video>
             <div class="wrap">
                 <div class="columna-texto">
                     <span class="subtitulo-superior">Hot Springs, Arkansas — Guía de viaje</span>
@@ -47,24 +51,6 @@
                         <a href="#guias" class="btn btn-primario">Planea tu visita</a>
                         <a href="#plan" class="btn btn-secundario">Ver el plan de 2 días</a>
                     </div>
-                </div>
-                <div class="carrusel-contenedor">
-                    <div class="carrusel-track">
-                        <?php foreach ($imagenes_hotsprings as $imagen): ?>
-                            <div class="tarjeta-slider">
-                                <div class="contenedor-foto">
-                                    <img src="<?php echo $imagen['archivo']; ?>" alt="<?php echo $imagen['alt']; ?>">
-                                </div>
-                                <div class="info-foto">
-                                    <h3><?php echo $imagen['titulo']; ?></h3>
-                                    <p><?php echo $imagen['descripcion']; ?></p>
-                                </div>
-                            </div>
-                        <?php endforeach; ?>
-                    </div>
-                    <!-- Botones opcionales para controlar el slider manualmente -->
-                    <button class="boton-slider prev" onclick="cambiarSlide(-1)">&#10094;</button>
-                    <button class="boton-slider next" onclick="cambiarSlide(1)">&#10095;</button>
                 </div>
 
             </div>
