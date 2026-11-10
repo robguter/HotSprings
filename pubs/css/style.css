@@ -129,7 +129,7 @@ button{ font-family:inherit; cursor:pointer; }
 /* ---------- hero (home) ---------- */
 .hero{
   background:
-    radial-gradient(120% 140% at 85% 0%, rgba(76,148,138,.35), transparent 55%),
+    radial-gradient(120% 140% at 85% 0%, rgba(76,138,148,.35), transparent 55%),
     radial-gradient(90% 120% at 10% 100%, rgba(94,111,189,.25), transparent 60%),
     linear-gradient(180deg, var(--deep-teal) 0%, var(--deep-teal-2) 100%);
   color:var(--mist);
@@ -178,17 +178,17 @@ button{ font-family:inherit; cursor:pointer; }
 /* --- NUEVA CONFIGURACIÓN DE VARIABLES CON IMÁGENES DE FONDO --- */
 
 .spring-panel--belleza { 
-  --panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), 
+  --panel-bg: linear-gradient(155deg, rgba(101, 109, 173, 0.5), rgba(43, 54, 120, 0.6)), 
               url('../images/belleza/belleza_01.webp'); 
 }
 
 .spring-panel--hogar { 
-  --panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), 
+  --panel-bg: linear-gradient(155deg, rgba(62, 154, 215, 0.5), rgba(30, 106, 169, 0.6)), 
               url('../images/hogar/hogar_06.webp'); 
 }
 
 .spring-panel--vida { 
-  --panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), 
+  --panel-bg: linear-gradient(155deg, rgba(106, 168, 178, 0.5), rgba(31, 81, 89, 0.6)), 
               url('../images/vida/vida_01.webp'); 
 }
 
@@ -312,13 +312,13 @@ button{ font-family:inherit; cursor:pointer; }
 .producto-card::after{
   content:''; position:absolute; inset:0; 
   z-index:-1; border-radius:var(--radius-m); 
-  box-shadow:0 2px 6px rgba(38,35,29,.08);
+  box-shadow:0 2px 6px rgba(29,35,38,.08);
   background:radial-gradient(circle, rgba(255,255,255,.16), transparent 70%);}
 
 .producto-card::before{ content:''; position:absolute; inset:0;
   z-index:-1; background:var(--fondo-formulario); }
 
-.producto-card--form { --fondo-formulario: linear-gradient(155deg, rgba(76,148,138,.7), rgba(76,148,138,.99)); }
+.producto-card--form { --fondo-formulario: linear-gradient(155deg, rgba(76,138,148,.7), rgba(76,138,148,.99)); }
 
 .producto-card:hover{  transform:translateY(-1px);  }
 
@@ -362,7 +362,7 @@ button{ font-family:inherit; cursor:pointer; }
     background: var(--amber);
     padding: .65rem 0.5rem;
     border-radius: 999px;
-    box-shadow: 0 2px 8px rgba(201,138,46,.35);
+    box-shadow: 0 2px 8px rgba(46,138,201,.35);
     transition: transform .15s ease, box-shadow .15s ease, background .15s ease;
 }
 
@@ -370,7 +370,7 @@ button{ font-family:inherit; cursor:pointer; }
     background: #b57a26;
     color: #26231D;
     transform: translateY(-1px);
-    box-shadow: 0 4px 14px rgba(201,138,46,.45);
+    box-shadow: 0 4px 14px rgba(46,138,201,.45);
 }
 
 .product-cta svg{ width:12px; height:16px; transition:transform .15s ease; }
@@ -663,7 +663,7 @@ a.tarjeta-slider {
 /* --- Portada con video a todo el ancho --- */
 .hero--video{ position:relative; overflow:hidden; display:flex; align-items:center; min-height:560px; }
 .hero--video .hero-bg{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0; }
-.hero--video::before{ content:''; position:absolute; inset:0; z-index:1; background:linear-gradient(90deg, rgba(13,38,36,.80) 0%, rgba(13,38,36,.55) 55%, rgba(13,38,36,.28) 100%); }
+.hero--video::before{ content:''; position:absolute; inset:0; z-index:1; background:linear-gradient(90deg, rgba(13,36,38,.80) 0%, rgba(13,36,38,.55) 55%, rgba(13,36,38,.28) 100%); }
 .hero--video .wrap{ position:relative; z-index:2; display:block; width:100%; }
 .hero--video .columna-texto{ max-width:620px; }
 @media (max-width:720px){ .hero--video{ min-height:480px; } }
