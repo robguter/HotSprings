@@ -1,25 +1,28 @@
 RewriteEngine On
 
-# 1. Si viene con www, quítalo y fuerza https (no aplica en localhost)
 RewriteCond %{HTTP_HOST} !^localhost [NC]
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
 
-# 2. Si viene sin www pero por http, fuerza https (no aplica en localhost)
 RewriteCond %{HTTP_HOST} !^localhost [NC]
 RewriteCond %{HTTPS} off
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
-# 3. Redirección 301: fuerza la versión sin .php como canónica
-RewriteCond %{THE_REQUEST} \s/+(index|belleza|hogar|vida|contacto|privacidad|terminos)\.php[\s?] [NC]
+RewriteCond %{THE_REQUEST} \s/+(index|inicio)\.php[\s?] [NC]
+RewriteRule ^ / [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+(things-to-do-in-hot-springs|where-to-stay-in-hot-springs|hot-springs-2-day-itinerary|contacto|privacidad|terminos)\.php[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L]
 
-# 4. Si es un directorio, archivo o enlace válido, no lo redirijas
+RewriteCond %{THE_REQUEST} \s/+es/(index|inicio)\.php[\s?] [NC]
+RewriteRule ^ /es/ [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+es/(things-to-do-in-hot-springs|where-to-stay-in-hot-springs|hot-springs-2-day-itinerary)\.php[\s?] [NC]
+RewriteRule ^ /es/%1 [R=301,L]
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 
-# 5. Redirección al Front Control
 RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
 
 Options -Indexes
