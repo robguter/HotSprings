@@ -59,13 +59,15 @@
             <div class="wrap">
                 <div class="springs-head">
                     <h2>Start with the water. The rest follows.</h2>
-                    <p class="kicker">Full guides — where to stay, what to book, what each bathhouse offers — are on the way. Start with the three things that make Hot Springs different.</p>
+                    <p class="kicker">Full guides — where to stay, what to book, what each bathhouse offers — are on the way.
+                                      Start with the three things that make Hot Springs different.</p>
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/piscina_termal.webp');">
                         <h3>The Thermal Springs</h3>
-                        <p>Hot water comes out of the mountain at the heart of the city. There are no outdoor thermal pools in the park — the way to soak is inside a bathhouse.</p>
+                        <p>Hot water comes out of the mountain at the heart of the city.
+                            There are no outdoor thermal pools in the park — the way to soak is inside a bathhouse.</p>
                     </div>
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/spa_relax.webp');">
                         <h3>Bathhouses &amp; Spas</h3>
