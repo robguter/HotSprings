@@ -4,7 +4,7 @@
     $is_spanish = isset($is_spanish) ? $is_spanish : false;
     $tiene_traduccion = isset($tiene_traduccion) ? $tiene_traduccion : false;
     if ($is_spanish) {
-        $titulo_pagina = isset($meta_title) ? $meta_title : "Hot Springs, Arkansas — Guía de Viajes: Termas, Hoteles y Lagos";
+        $titulo_pagina = isset($meta_title) ? $meta_title : "Hot Springs, Arkansas — Guía de Viajes: Termas, Hoteles y Lagos - Hot Springs";
         $desc_pagina   = isset($meta_description) ? $meta_description : "Planifica tu viaje a Hot Springs, Arkansas: báñate en las casas de baño históricas de Bathhouse Row, explora el Parque Nacional Hot Springs y pasa un día en el Lago Hamilton o el Lago Ouachita.";
         $url_canonica  = isset($canonical) ? $canonical : "https://tiendahotspringsllc.com/es/";
         $og_locale = 'es_ES';

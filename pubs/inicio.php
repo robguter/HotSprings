@@ -1,5 +1,5 @@
 <?php
-            $meta_title = "Hot Springs, Arkansas — Travel Guide: Baths, Hotels & Lakes";
+            $meta_title = "Hot Springs, Arkansas — Travel Guide: Baths, Hotels & Lakes - Hot Springs";
             $meta_description = "Plan your trip to Hot Springs, Arkansas: soak in the historic bathhouses on Bathhouse Row, explore Hot Springs National Park, and spend a day on Lake Hamilton or Lake Ouachita.";
             $canonical = "https://tiendahotspringsllc.com/";
             $tiene_traduccion = true;

@@ -1,5 +1,5 @@
 <?php
-            $meta_title = "What to Do in Hot Springs in 2 Days: The Perfect Weekend Itinerary";
+            $meta_title = "What to Do in Hot Springs in 2 Days: The Perfect Weekend Itinerary - Hot Springs";
             $meta_description = "A 2-day Hot Springs, Arkansas itinerary: Day 1 on Bathhouse Row with the thermal baths, Day 2 at Garvan Woodland Gardens, the Anthony Chapel and Lake Hamilton — with an hour-by-hour plan.";
             $canonical = "https://tiendahotspringsllc.com/hot-springs-2-day-itinerary";
             $tiene_traduccion = true;

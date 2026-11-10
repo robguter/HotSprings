@@ -1,5 +1,5 @@
 <?php
-            $meta_title = "Where to Stay in Hot Springs, Arkansas: Best Areas and Hotels";
+            $meta_title = "Where to Stay in Hot Springs, Arkansas: Best Areas and Hotels - Hot Springs";
             $meta_description = "Where to stay in Hot Springs, Arkansas: downtown by Bathhouse Row for first-time visitors, Lake Hamilton for lake days and groups, or Central Avenue near Oaklawn for families and value.";
             $canonical = "https://tiendahotspringsllc.com/where-to-stay-in-hot-springs";
             $tiene_traduccion = true;

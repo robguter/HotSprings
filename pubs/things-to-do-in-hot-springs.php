@@ -1,5 +1,5 @@
 <?php
-            $meta_title = "Things to Do in Hot Springs, Arkansas — Baths, Trails & Lakes";
+            $meta_title = "Things to Do in Hot Springs, Arkansas — Baths, Trails & Lakes - Hot Springs";
             $meta_description = "The best things to do in Hot Springs, Arkansas: soak on Bathhouse Row, walk the Grand Promenade, hike 26 miles of national park trails, and spend a day on Lake Hamilton or Lake Ouachita.";
             $canonical = "https://tiendahotspringsllc.com/things-to-do-in-hot-springs";
             $tiene_traduccion = true;
