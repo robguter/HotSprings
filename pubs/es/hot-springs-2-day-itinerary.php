@@ -85,7 +85,7 @@
                         <h3>Después, a remojarse</h3>
                         <p>Elige tu ritual: el Buckstaff, en funcionamiento desde 1912, para el tradicional baño en tina privada, o Quapaw Baths and Spa para las modernas piscinas termales. En el camino, llena una jarra en una de las fuentes de agua caliente: los habitantes locales lo hacen.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/calle_central.webp');">
                         <h3>Cena en Central Avenue</h3>
                         <p>Termina con una cena en Central Avenue y una bebida en Superior Bathhouse Brewery, la cervecería dentro del parque nacional que elabora su cerveza con agua termal.</p>
                     </div>
@@ -102,7 +102,7 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/jardin_garvan.webp');">
                         <h3>Garvan Woodland Gardens</h3>
                         <p>La mañana en Garvan Woodland Gardens (550 Arkridge Rd): 210 acres de jardines junto a Lake Hamilton. Ve temprano y visita la Anthony Chapel con la luz tranquila, antes de que llegue la multitud.</p>
                     </div>
@@ -110,7 +110,7 @@
                         <h3>Tarde en Lake Hamilton</h3>
                         <p>Alquila un bote, haz un tour en vehículo anfibio o simplemente disfruta un almuerzo prolongado junto al lago. El lago es la segunda mitad del viaje a Hot Springs: no lo saltes por pasar más tiempo en el centro.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/entorno_natural.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/torre_mirador.webp');">
                         <h3>Si todavía queda energía</h3>
                         <p>Añade una opción: las carreras o el casino de Oaklawn, Magic Springs Theme and Water Park (1701 E Grand Ave) si viajas con niños, o Hot Springs Mountain Tower para disfrutar la vista antes de partir.</p>
                     </div>

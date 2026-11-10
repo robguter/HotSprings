@@ -12,6 +12,7 @@
         $f_term    = 'Términos del Servicio';
         $f_rights  = 'Todos los derechos reservados.';
         $f_assoc   = 'Algunos enlaces de este sitio son enlaces de afiliado. Si reservas a través de ellos, podemos ganar una comisión sin costo extra para ti.';
+        $f_credits = 'Fotos de los lugares: Eric Friedebach (CC BY 2.0), Larry D. Moore (CC BY 4.0) y Brandonrush (CC BY-SA 3.0), vía Wikimedia Commons.';
         $g_things  = 'Qué Hacer';
         $g_stay    = 'Dónde Dormir';
         $g_itin    = 'Itinerario de 2 Días';
@@ -35,6 +36,7 @@
         $f_term    = 'Terms of Service';
         $f_rights  = 'All rights reserved.';
         $f_assoc   = 'Some links on this site are affiliate links. If you book through them, we may earn a commission at no extra cost to you.';
+        $f_credits = 'Place photos: Eric Friedebach (CC BY 2.0), Larry D. Moore (CC BY 4.0) and Brandonrush (CC BY-SA 3.0), via Wikimedia Commons.';
         $g_things  = 'Things to Do';
         $g_stay    = 'Where to Stay';
         $g_itin    = '2-Day Itinerary';
@@ -88,6 +90,7 @@
                 <div class="footer-bottom">
                     <span>© <?php echo date("Y"); ?> Hot Springs LLC. <?php echo $f_rights; ?></span>
                     <span><?php echo $f_assoc; ?></span>
+                    <span><?php echo $f_credits; ?></span>
                 </div>
             </div>
         </footer>
