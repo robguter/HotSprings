@@ -7,10 +7,16 @@
         $titulo_pagina = isset($meta_title) ? $meta_title : "Hot Springs, Arkansas — Guía de Viajes: Termas, Hoteles y Lagos";
         $desc_pagina   = isset($meta_description) ? $meta_description : "Planifica tu viaje a Hot Springs, Arkansas: báñate en las casas de baño históricas de Bathhouse Row, explora el Parque Nacional Hot Springs y pasa un día en el Lago Hamilton o el Lago Ouachita.";
         $url_canonica  = isset($canonical) ? $canonical : "https://tiendahotspringsllc.com/es/";
+        $og_locale = 'es_ES';
+        $schema_dest_desc = 'Hot Springs, Arkansas: un pueblo termal histórico construido alrededor de manantiales naturales, sede de Bathhouse Row y del Parque Nacional Hot Springs, con el Lago Hamilton y el Lago Ouachita cerca.';
+        $schema_tourist_type = 'Termas, naturaleza, historia y lagos';
     } else {
         $titulo_pagina = isset($meta_title) ? $meta_title : "Hot Springs, Arkansas — Travel Guide: Baths, Hotels & Lakes";
         $desc_pagina   = isset($meta_description) ? $meta_description : "Plan your trip to Hot Springs, Arkansas: soak in the historic bathhouses on Bathhouse Row, explore Hot Springs National Park, and spend a day on Lake Hamilton or Lake Ouachita.";
         $url_canonica  = isset($canonical) ? $canonical : "https://tiendahotspringsllc.com/";
+        $og_locale = 'en_US';
+        $schema_dest_desc = 'Hot Springs, Arkansas: a historic spa town built around natural thermal springs, home to Bathhouse Row and Hot Springs National Park, with Lake Hamilton and Lake Ouachita nearby.';
+        $schema_tourist_type = 'Thermal baths, nature, history and lakes';
     }
     $data_niche = isset($data_niche) && !empty($data_niche) ? $data_niche : "";
 
@@ -75,6 +81,23 @@
         <link rel="alternate" hreflang="x-default" href="<?php echo $hreflang_en; ?>">
         <?php endif; ?>
 
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+        <!-- Open Graph / Twitter: cómo se ve la página al compartirla -->
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Hot Springs, Arkansas — Travel Guide">
+        <meta property="og:title" content="<?php echo htmlspecialchars($titulo_pagina); ?>">
+        <meta property="og:description" content="<?php echo htmlspecialchars($desc_pagina); ?>">
+        <meta property="og:url" content="<?php echo $url_canonica; ?>">
+        <meta property="og:locale" content="<?php echo $og_locale; ?>">
+        <meta property="og:image" content="https://tiendahotspringsllc.com/images/og-hot-springs.jpg">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="<?php echo htmlspecialchars($titulo_pagina); ?>">
+        <meta name="twitter:description" content="<?php echo htmlspecialchars($desc_pagina); ?>">
+        <meta name="twitter:image" content="https://tiendahotspringsllc.com/images/og-hot-springs.jpg">
+
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="stylesheet" href="/css/style.css">
@@ -102,14 +125,60 @@
         src="https://www.facebook.com/tr?id=1060524906953580&ev=PageView&noscript=1"
         /></noscript>
 
-        <script type="application/ld+json">
-        {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "Hot Springs LLC",
-            "url": "https://tiendahotspringsllc.com/"
-        }
-        </script>
+        <?php
+            // Datos estructurados: agencia + sitio + destino turístico (+ ruta de navegación en las guías)
+            $schema_items = [
+                [
+                    '@type' => 'TravelAgency',
+                    '@id' => 'https://tiendahotspringsllc.com/#organization',
+                    'name' => 'Hot Springs LLC',
+                    'url' => 'https://tiendahotspringsllc.com/',
+                    'logo' => 'https://tiendahotspringsllc.com/images/hsllc.png',
+                    'email' => 'admin@tiendahotspringsllc.com',
+                ],
+                [
+                    '@type' => 'WebSite',
+                    '@id' => 'https://tiendahotspringsllc.com/#website',
+                    'url' => 'https://tiendahotspringsllc.com/',
+                    'name' => 'Hot Springs, Arkansas — Travel Guide',
+                    'publisher' => ['@id' => 'https://tiendahotspringsllc.com/#organization'],
+                ],
+                [
+                    '@type' => 'TouristDestination',
+                    'name' => 'Hot Springs, Arkansas',
+                    'description' => $schema_dest_desc,
+                    'url' => 'https://tiendahotspringsllc.com/',
+                    'image' => 'https://tiendahotspringsllc.com/images/og-hot-springs.jpg',
+                    'geo' => [
+                        '@type' => 'GeoCoordinates',
+                        'latitude' => 34.5037,
+                        'longitude' => -93.0552,
+                    ],
+                    'touristType' => $schema_tourist_type,
+                ],
+            ];
+            if ($slug_actual !== 'index' && isset($nav_items[$slug_actual])) {
+                $schema_items[] = [
+                    '@type' => 'BreadcrumbList',
+                    'itemListElement' => [
+                        [
+                            '@type' => 'ListItem',
+                            'position' => 1,
+                            'name' => $nav_items['index'],
+                            'item' => 'https://tiendahotspringsllc.com' . $home_url,
+                        ],
+                        [
+                            '@type' => 'ListItem',
+                            'position' => 2,
+                            'name' => $nav_items[$slug_actual],
+                            'item' => $url_canonica,
+                        ],
+                    ],
+                ];
+            }
+            $schema_graph = ['@context' => 'https://schema.org', '@graph' => $schema_items];
+        ?>
+        <script type="application/ld+json"><?php echo json_encode($schema_graph, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE); ?></script>
 
         <!-- End Meta Pixel Code -->
     </head>
