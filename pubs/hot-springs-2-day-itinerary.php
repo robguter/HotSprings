@@ -1,5 +1,5 @@
 <?php
-            $meta_title = "What to Do in Hot Springs in 2 Days: The Perfect Weekend Itinerary - Hot Springs";
+            $meta_title = "What to Do in Hot Springs in 2 Days: The Perfect Weekend Itinerary";
             $meta_description = "A 2-day Hot Springs, Arkansas itinerary: Day 1 on Bathhouse Row with the thermal baths, Day 2 at Garvan Woodland Gardens, the Anthony Chapel and Lake Hamilton — with an hour-by-hour plan.";
             $canonical = "https://tiendahotspringsllc.com/hot-springs-2-day-itinerary";
             $tiene_traduccion = true;
@@ -76,22 +76,29 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/spa_relax.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/spa_relax.webp');">
                         <h3>Understand it first: the Fordyce</h3>
                         <p>Begin at the Fordyce Bathhouse Visitor Center and Museum (free, 369 Central Ave) to understand how the springs made this town. Then walk Bathhouse Row — eight historic bathhouses built between 1892 and 1923 — and the Grand Promenade behind it.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/piscina_termal.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/piscina_termal.webp');">
                         <h3>Then soak</h3>
                         <p>Choose your ritual: the Buckstaff, operating since 1912, for the traditional private-tub bath, or Quapaw Baths and Spa for modern thermal pools. On the way, fill a jug at one of the hot-water jug fountains — the locals do.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/calle_central.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/calle_central.webp');">
                         <h3>Dinner on Central Avenue</h3>
                         <p>Finish with dinner on Central Avenue and a drink at Superior Bathhouse Brewery — the brewery inside the national park that brews its beer with thermal water.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- VIATOR LINK: Day 1 tours — insert after approval -->
+        <section class="principles">
+            <div class="wrap">
+                <p>Prefer it guided? The self-guided audio tour covers Bathhouse Row and the National Park at your own pace.</p>
+                <div class="bloque-botones">
+                    <a href="https://www.viator.com/Hot-Springs/d50758-ttd?pid=P00331044&mcid=42383&medium=link&campaign=things-to-do" class="btn btn-primario" target="_blank" rel="noopener sponsored">See Day 1 tours on Viator</a>
+                </div>
+            </div>
+        </section>
 
         <section class="springs" id="day2">
             <div class="wrap">
@@ -101,22 +108,29 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/jardin_garvan.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), url('/images/jardin_garvan.webp');">
                         <h3>Garvan Woodland Gardens</h3>
                         <p>Morning at Garvan Woodland Gardens (550 Arkridge Rd) — 210 acres of gardens on Lake Hamilton. Go early, and see the Anthony Chapel in the quiet light before the crowds.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/lago_ouachita.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), url('/images/lago_ouachita.webp');">
                         <h3>Afternoon on Lake Hamilton</h3>
                         <p>Rent a boat, take a duck tour, or keep it simple with a long lakeside lunch. The lake is the second half of the Hot Springs trip — do not skip it for more downtown.</p>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/torre_mirador.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), url('/images/torre_mirador.webp');">
                         <h3>If energy remains</h3>
                         <p>Add one: Oaklawn racing or the casino, Magic Springs Theme and Water Park (1701 E Grand Ave) if you are traveling with kids, or Hot Springs Mountain Tower for the view before you leave.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- VIATOR LINK: Day 2 tours — insert after approval -->
+        <section class="principles">
+            <div class="wrap">
+                <p>For the gardens and the lake, check the tours and tickets that fit Day 2.</p>
+                <div class="bloque-botones">
+                    <a href="https://www.viator.com/Hot-Springs/d50758-ttd?pid=P00331044&mcid=42383&medium=link&campaign=things-to-do" class="btn btn-primario" target="_blank" rel="noopener sponsored">See Day 2 tours on Viator</a>
+                </div>
+            </div>
+        </section>
 
         <section class="principles" id="schedule1">
             <div class="wrap">
