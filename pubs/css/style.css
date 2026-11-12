@@ -535,7 +535,7 @@ a.tarjeta-slider {
     flex-direction: column;
     justify-content: center;
     max-width: 550px;
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 /* El texto pequeño de arriba ahora tiene más estilo y respiro */
