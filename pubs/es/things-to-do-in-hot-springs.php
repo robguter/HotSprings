@@ -69,6 +69,19 @@
             </div>
         </section>
 
+        <section class="principles" id="oaklawn">
+            <div class="wrap">
+                <h2>Las carreras de caballos y el casino</h2>
+                <p class="kicker">En Oaklawn corren caballos pura sangre desde 1904. Hoy el hipódromo está dentro del único resort con carreras y casino de Arkansas, a pocos minutos en carro por Central Avenue desde Bathhouse Row — y cada primavera recibe una de las carreras más importantes de Estados Unidos.</p>
+                <div class="spring-panels" style="grid-template-columns: 1fr;">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
+                        <h3>Oaklawn Racing Casino Resort</h3>
+                        <p>El día del Derby en Oaklawn Park: la puerta de salida, la multitud y la pista de tierra.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="springs" id="classics">
             <div class="wrap">
                 <div class="springs-head">
@@ -140,26 +153,19 @@
         <section class="principles" id="oaklawn">
             <div class="wrap">
                 <h2>Las carreras de caballos y el casino</h2>
-                <p class="kicker">En Oaklawn corren caballos pura sangre desde 1904. Hoy el hipódromo está dentro del único resort con carreras y casino de Arkansas, a pocos minutos en carro por Central Avenue desde Bathhouse Row — y cada primavera recibe una de las carreras más importantes de Estados Unidos.</p>
-                <div class="spring-panels" style="grid-template-columns: 1fr;">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
-                        <h3>Oaklawn Racing Casino Resort</h3>
-                        <p>El día del Derby en Oaklawn Park: la puerta de salida, la multitud y la pista de tierra.</p>
-                    </div>
-                </div>
                 <div class="principles-grid">
-                <div class="principle">
-                    <h4>El Arkansas Derby</h4>
-                    <p>Una carrera de Grado 1 con bolsa de $1.5 millones — la última clasificatoria de 100 puntos para el Kentucky Derby y una de las carreras preparatorias más importantes del país. La próxima es el 10 de abril de 2027, y ese fin de semana se llena con meses de anticipación.</p>
-                </div>
-                <div class="principle">
-                    <h4>Temporada de carreras</h4>
-                    <p>La temporada 2026–27 va del 27 de noviembre de 2026 al 1 de mayo de 2027, con los días grandes — Smarty Jones, Southwest, Rebel y el Arkansas Derby — repartidos entre el invierno y la primavera. Revisa la cartelera del día en oaklawn.com antes de ir.</p>
-                </div>
-                <div class="principle">
-                    <h4>El casino, todo el año</h4>
-                    <p>El casino libre de humo abre las 24 horas, todo el año: más de 1,400 máquinas tragamonedas, más de 30 mesas de juego y apuestas deportivas. The Bugler y The OAK room &amp; bar son los únicos dos restaurantes Forbes Recommended de Arkansas, y el Astral Spa y el hotel están en el mismo lugar, en 2705 Central Avenue. Carreras desde los 18 años; casino desde los 21.</p>
-                </div>
+                    <div class="principle">
+                        <h4>El Arkansas Derby</h4>
+                        <p>Una carrera de Grado 1 con bolsa de $1.5 millones — la última clasificatoria de 100 puntos para el Kentucky Derby y una de las carreras preparatorias más importantes del país. La próxima es el 10 de abril de 2027, y ese fin de semana se llena con meses de anticipación.</p>
+                    </div>
+                    <div class="principle">
+                        <h4>Temporada de carreras</h4>
+                        <p>La temporada 2026–27 va del 27 de noviembre de 2026 al 1 de mayo de 2027, con los días grandes — Smarty Jones, Southwest, Rebel y el Arkansas Derby — repartidos entre el invierno y la primavera. Revisa la cartelera del día en oaklawn.com antes de ir.</p>
+                    </div>
+                    <div class="principle">
+                        <h4>El casino, todo el año</h4>
+                        <p>El casino libre de humo abre las 24 horas, todo el año: más de 1,400 máquinas tragamonedas, más de 30 mesas de juego y apuestas deportivas. The Bugler y The OAK room &amp; bar son los únicos dos restaurantes Forbes Recommended de Arkansas, y el Astral Spa y el hotel están en el mismo lugar, en 2705 Central Avenue. Carreras desde los 18 años; casino desde los 21.</p>
+                    </div>
                 </div>
             </div>
         </section>
