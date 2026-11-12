@@ -167,7 +167,8 @@ button{ font-family:inherit; cursor:pointer; }
 .springs-head{ max-width:56ch; margin-bottom:var(--space-3); }
 .springs-head .kicker{ color:var(--stone-ink-60); font-size:1.02rem; margin-top:var(--space-2); }
 
-.spring-panels{ display:grid; grid-template-columns:1.5fr 1.5fr 1.5fr; grid-template-rows:auto auto; gap:.5rem; }
+.spring-panels{ display:grid; grid-template-columns:1.5fr 1.5fr 1.5fr;
+                grid-template-rows:auto auto; gap:.15rem; }
 
 .spring-panel::after{
   content:''; position:absolute; z-index:-1; border-radius:50%;
