@@ -216,7 +216,7 @@ button{ font-family:inherit; cursor:pointer; }
   position: relative; 
   overflow: hidden;
   border-radius: var(--radius-m);
-  padding: calc(190px + var(--space-2)) var(--space-2) var(--space-3); /* Aumentamos el padding para dar más aire a los lados y abajo */
+  padding: calc(190px + var(--space-2)) var(--space-2) var(--space-2);
   color: var(--mist);
   background: var(--deep-teal-2);
   min-height: 0;
@@ -242,8 +242,8 @@ button{ font-family:inherit; cursor:pointer; }
 }
 
 /* Foto más alta solo para el panel de Oaklawn (el resto queda en 190px) */
-.spring-panel--alta::before { height: 380px; }
-.spring-panel--alta { padding-top: calc(380px + var(--space-2)); }
+.spring-panel--alta::before { height: 300px; }
+.spring-panel--alta { padding-top: calc(300px + var(--space-2)); }
 
 /* Le damos un espacio ordenado al título con respecto al párrafo */
 .spring-panel h3 {
@@ -255,7 +255,7 @@ button{ font-family:inherit; cursor:pointer; }
 
 /* Separamos el párrafo del botón */
 .spring-panel p {
-  margin: 0 0 var(--space-4) 0; /* Empuja el botón hacia abajo de forma limpia */
+  margin: 0 0 var(--space-2) 0;
   font-size: 0.95rem;
   line-height: 1.4;
 }
