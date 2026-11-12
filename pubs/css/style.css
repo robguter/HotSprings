@@ -242,8 +242,8 @@ button{ font-family:inherit; cursor:pointer; }
 }
 
 /* Foto más alta solo para el panel de Oaklawn (el resto queda en 190px) */
-.spring-panel--alta::before { height: 300px; }
-.spring-panel--alta { padding-top: calc(300px + var(--space-2)); }
+.spring-panel--alta::before { height: 440px; }
+.spring-panel--alta { padding-top: calc(440px + var(--space-2)); }
 
 /* Le damos un espacio ordenado al título con respecto al párrafo */
 .spring-panel h3 {
