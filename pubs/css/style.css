@@ -171,7 +171,7 @@ button{ font-family:inherit; cursor:pointer; }
 
 .spring-panel::after{
   content:''; position:absolute; z-index:-1; border-radius:50%;
-  width:340px; height:340px; right:-90px; top:-90px;
+  width:340px; height:240px; right:-90px; top:-90px;
   background:radial-gradient(circle, rgba(255,255,255,.16), transparent 70%);
 }
 
@@ -232,7 +232,7 @@ button{ font-family:inherit; cursor:pointer; }
 .spring-panel::before {
   content: ''; 
   position: absolute; 
-  top: 0; left: 0; right: 0; height: 190px; 
+  top: 0; left: 0; right: 0; height: 290px; 
   z-index: -1;
   /* Mezclamos tu color base con un degradado que se va haciendo negro abajo para rescatar las letras blancas */
   background: var(--panel-bg);
