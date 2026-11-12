@@ -136,14 +136,37 @@
             </div>
         </section>
 
+        <section class="principles" id="oaklawn">
+            <div class="wrap">
+                <h2>Horse racing and the casino</h2>
+                <p class="kicker">Thoroughbreds have run at Oaklawn since 1904. Today the track sits inside Arkansas's only racing casino resort, a short drive down Central Avenue from Bathhouse Row — and every spring it hosts one of the biggest horse races in the United States.</p>
+                <div class="spring-panels" style="grid-template-columns: 1fr;">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
+                        <h3>Oaklawn Racing Casino Resort</h3>
+                        <p>Derby Day at Oaklawn Park: the starting gate, the crowd and the dirt track.</p>
+                    </div>
+                </div>
+                <div class="principles-grid">
+                <div class="principle">
+                    <h4>The Arkansas Derby</h4>
+                    <p>A Grade 1 race with a $1.5 million purse — the final 100-point qualifier for the Kentucky Derby, and one of the most important prep races in the country. The next running is April 10, 2027, and the weekend books out months ahead.</p>
+                </div>
+                <div class="principle">
+                    <h4>Live racing season</h4>
+                    <p>The 2026–27 season runs November 27, 2026 to May 1, 2027, with the big stakes days — Smarty Jones, Southwest, Rebel, Arkansas Derby — spread across the winter and spring. Check oaklawn.com for the day's card before you go.</p>
+                </div>
+                <div class="principle">
+                    <h4>The casino, all year</h4>
+                    <p>The smoke-free casino runs 24 hours a day, all year: more than 1,400 slot machines, 30-plus table games and a sportsbook. The Bugler and The OAK room &amp; bar are the only two Forbes Recommended restaurants in Arkansas, and the Astral Spa and hotel are on site, at 2705 Central Avenue. Racing is 18+, casino gaming 21+.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
         <section class="principles" id="more">
             <div class="wrap">
                 <h2>More ways to fill a day</h2>
                 <div class="principles-grid">
-                <div class="principle">
-                    <h4>Oaklawn Racing Casino Resort</h4>
-                    <p>Horse racing and a casino in one Hot Springs landmark.</p>
-                </div>
                 <div class="principle">
                     <h4>The Gangster Museum of America</h4>
                     <p>The city's 1920s–30s gangster era — when Al Capone visited Hot Springs — told in one museum.</p>
