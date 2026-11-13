@@ -33,8 +33,8 @@
             ?>
         <section class="hero hero--video">
             <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="/images/piscina_termal.webp">
-                <source src="/images/video-portada.webm" type="video/webm">
-                <source src="/images/video-portada.mp4" type="video/mp4">
+                <source src="/images/video-mejores-sitios.webm" type="video/webm">
+                <source src="/images/video-mejores-sitios.mp4" type="video/mp4">
             </video>
             <div class="wrap">
                 <div class="columna-texto">

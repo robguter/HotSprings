@@ -13,7 +13,7 @@
         $f_rights  = 'Todos los derechos reservados.';
         $f_based   = 'Esta guía está basada en Hot Springs, Arkansas.';
         $f_assoc   = 'Algunos enlaces de este sitio son enlaces de afiliado. Si reservas a través de ellos, podemos ganar una comisión sin costo extra para ti.';
-        $f_credits = 'Fotos de los lugares: Eric Friedebach (CC BY 2.0), Larry D. Moore (CC BY 4.0) y Brandonrush (CC BY-SA 3.0 y CC BY-SA 4.0), vía Wikimedia Commons.';
+        $f_credits = 'Fotos de los lugares: Eric Friedebach (CC BY 2.0), Larry D. Moore (CC BY 4.0) y Brandonrush (CC BY-SA 3.0 y CC BY-SA 4.0), vía Wikimedia Commons. Música: "Gentle Breeze" de Verbovets, vía LesFM (CC BY).';
         $g_things  = 'Qué Hacer';
         $g_stay    = 'Dónde Dormir';
         $g_itin    = 'Itinerario de 2 Días';
@@ -38,7 +38,7 @@
         $f_rights  = 'All rights reserved.';
         $f_based   = 'This guide is based in Hot Springs, Arkansas.';
         $f_assoc   = 'Some links on this site are affiliate links. If you book through them, we may earn a commission at no extra cost to you.';
-        $f_credits = 'Place photos: Eric Friedebach (CC BY 2.0), Larry D. Moore (CC BY 4.0) and Brandonrush (CC BY-SA 3.0 and CC BY-SA 4.0), via Wikimedia Commons.';
+        $f_credits = 'Place photos: Eric Friedebach (CC BY 2.0), Larry D. Moore (CC BY 4.0) and Brandonrush (CC BY-SA 3.0 and CC BY-SA 4.0), via Wikimedia Commons. Music: "Gentle Breeze" by Verbovets, via LesFM (CC BY).';
         $g_things  = 'Things to Do';
         $g_stay    = 'Where to Stay';
         $g_itin    = '2-Day Itinerary';
