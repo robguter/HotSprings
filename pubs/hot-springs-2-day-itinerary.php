@@ -164,6 +164,27 @@
             </div>
         </section>
 
+        <section class="principles" id="spa-noche-1">
+            <div class="wrap">
+                <h2>Tonight, back at your room</h2>
+                <p class="kicker">Day 1 ends in the tub. Drop a bath bomb in the hotel bathtub and let the thermal day finish the way it started.</p>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:24px;">
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-bombas.jpg" alt="Bath bombs gift set" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">LUXDOUCE Bath Bombs Gift Set, 48 pieces</h3>
+                            <p>48 bath bombs in 18 scents — color, foam and fragrance for every bath of the trip. One for tonight, the rest for the suitcase home.</p>
+                            <p><strong>$22.99</strong> <span style="font-size:12px; color:#777;">*Price on Amazon; may vary.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B0CH4XL1C9?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">See it on Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Illustrative photo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="principles" id="schedule2">
             <div class="wrap">
                 <h2>Day 2, hour by hour</h2>
@@ -192,6 +213,39 @@
                     <h4>6:00 pm</h4>
                     <p>Sunset on Lake Hamilton, and a farewell dinner.</p>
                 </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="principles" id="spa-noche-2">
+            <div class="wrap">
+                <h2>Tonight, and the gift to take home</h2>
+                <p class="kicker">The last evening is for the tub and the suitcase: the tray that holds your book and your tea, and the gift basket for whoever stayed home.</p>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:24px;">
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-bandeja.jpg" alt="Bamboo bathtub caddy tray" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">XcE Foldable Bamboo Bathtub Caddy Tray</h3>
+                            <p>Bamboo that folds out to 41 inches: book, tea and phone within reach, dry. The hotel tub becomes the best seat in the room.</p>
+                            <p><strong>$25.95</strong> <span style="font-size:12px; color:#777;">*Price on Amazon; may vary.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B0C3ZZVTQS?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">See it on Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Illustrative photo.</p>
+                        </div>
+                    </div>
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-canasta.jpg" alt="Spa gift basket" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Lovery Vanilla Coconut Spa Gift Basket, 9 pieces</h3>
+                            <p>Shower gel, bubble bath, scrub, body oil, two large bath bombs, bath salts and a towel in a handmade basket. The Hot Springs souvenir that actually gets used at home.</p>
+                            <p><strong>$34.19</strong> <span style="font-size:12px; color:#777;">*Price on Amazon; may vary.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B07GBFT6Z3?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">See it on Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Illustrative photo.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

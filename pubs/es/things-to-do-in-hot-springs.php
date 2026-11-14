@@ -106,6 +106,39 @@
             </div>
         </section>
 
+        <section class="principles" id="spa-en-casa">
+            <div class="wrap">
+                <h2>Lleva el baño a casa</h2>
+                <p class="kicker">Las casas de baños venden el ritual. Esto es lo que te permite seguirlo en casa: el mismo baño, en tu propia tina, y la canasta de regalo para llevar de recuerdo.</p>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:24px;">
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-epsom.jpg" alt="Bolsa de sales de baño Epsom" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Sales de Baño Epsom Epsoak, 19 lb</h3>
+                            <p>Sulfato de magnesio puro, sin aroma, hecho en EE. UU. Una bolsa grande de sales de baño convierte una tina común en el baño de Hot Springs, sin manejar.</p>
+                            <p><strong>$33.99</strong> <span style="font-size:12px; color:#777;">*Precio en Amazon; puede variar.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B004N7DQHA?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">Verlo en Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Foto ilustrativa.</p>
+                        </div>
+                    </div>
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-canasta.jpg" alt="Canasta de regalo de spa" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Canasta de Regalo Spa Lovery, Vainilla y Coco, 9 piezas</h3>
+                            <p>Gel de ducha, baño de burbujas, exfoliante, aceite corporal, 2 bombas grandes, sales de baño y toalla en canasta hecha a mano. El recuerdo de Hot Springs que de verdad se usa en casa.</p>
+                            <p><strong>$34.19</strong> <span style="font-size:12px; color:#777;">*Precio en Amazon; puede variar.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B07GBFT6Z3?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">Verlo en Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Foto ilustrativa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="springs" id="park">
             <div class="wrap">
                 <div class="springs-head">

@@ -165,6 +165,27 @@
             </div>
         </section>
 
+        <section class="principles" id="spa-noche-1">
+            <div class="wrap">
+                <h2>Esta noche, de vuelta en tu cuarto</h2>
+                <p class="kicker">El día 1 termina en la tina. Echa una bomba de baño en la bañera del hotel y deja que el día termal termine como empezó.</p>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:24px;">
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-bombas.jpg" alt="Set de bombas de baño" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Set de Bombas de Baño LUXDOUCE, 48 piezas</h3>
+                            <p>48 bombas de baño en 18 aromas: color, espuma y fragancia para cada baño del viaje. Una para esta noche y el resto para la maleta.</p>
+                            <p><strong>$22.99</strong> <span style="font-size:12px; color:#777;">*Precio en Amazon; puede variar.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B0CH4XL1C9?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">Verlo en Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Foto ilustrativa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="principles" id="schedule2">
             <div class="wrap">
                 <h2>Día 2, hora por hora</h2>
@@ -193,6 +214,39 @@
                     <h4>6:00 p. m.</h4>
                     <p>Atardecer en Lake Hamilton y una cena de despedida.</p>
                 </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="principles" id="spa-noche-2">
+            <div class="wrap">
+                <h2>Esta noche, y el regalo para llevar a casa</h2>
+                <p class="kicker">La última noche es para la tina y la maleta: la bandeja que sostiene tu libro y tu té, y la canasta de regalo para quien se quedó en casa.</p>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:24px;">
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-bandeja.jpg" alt="Bandeja de bambú para bañera" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Bandeja de Bambú para Bañera XcE, Plegable</h3>
+                            <p>Bambú que se extiende hasta 41 pulgadas: libro, té y teléfono al alcance, secos. La tina del hotel se convierte en el mejor asiento de la habitación.</p>
+                            <p><strong>$25.95</strong> <span style="font-size:12px; color:#777;">*Precio en Amazon; puede variar.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B0C3ZZVTQS?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">Verlo en Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Foto ilustrativa.</p>
+                        </div>
+                    </div>
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-canasta.jpg" alt="Canasta de regalo de spa" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Canasta de Regalo Spa Lovery, Vainilla y Coco, 9 piezas</h3>
+                            <p>Gel de ducha, baño de burbujas, exfoliante, aceite corporal, 2 bombas grandes, sales de baño y toalla en canasta hecha a mano. El recuerdo de Hot Springs que de verdad se usa en casa.</p>
+                            <p><strong>$34.19</strong> <span style="font-size:12px; color:#777;">*Precio en Amazon; puede variar.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B07GBFT6Z3?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">Verlo en Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Foto ilustrativa.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

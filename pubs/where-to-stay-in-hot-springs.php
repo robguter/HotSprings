@@ -124,6 +124,39 @@
             </div>
         </section>
 
+        <section class="principles" id="spa-habitacion">
+            <div class="wrap">
+                <h2>Make the hotel room feel like a spa</h2>
+                <p class="kicker">Two small things to pack: the pillow that turns any hotel tub into a soaking tub, and the oils that make the room smell like the bathhouse.</p>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:24px;">
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-almohada.jpg" alt="Bath pillow with suction cups" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">SZXYX Bath Pillows for Tub</h3>
+                            <p>A bath pillow with 6 suction cups that stay put — head, neck and shoulders supported, so a long hotel soak doesn't end with a sore neck.</p>
+                            <p><strong>$15.99</strong> <span style="font-size:12px; color:#777;">*Price on Amazon; may vary.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B0F3XDCKJZ?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">See it on Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Illustrative photo.</p>
+                        </div>
+                    </div>
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-aceites.jpg" alt="Essential oils set" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Aeshory Essential Oils Set, 12 bottles</h3>
+                            <p>12 bottles of 5 ml for a diffuser or humidifier: the room smells like a spa. For the hotel room at night, or the bathroom at home when the trip is over.</p>
+                            <p><strong>$15.99</strong> <span style="font-size:12px; color:#777;">*Price on Amazon; may vary.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B0CQJYVGSW?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">See it on Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Illustrative photo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="principles" id="planning">
             <div class="wrap">
                 <h2>Keep planning</h2>

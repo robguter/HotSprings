@@ -125,6 +125,39 @@
             </div>
         </section>
 
+        <section class="principles" id="spa-habitacion">
+            <div class="wrap">
+                <h2>Que la habitación del hotel se sienta como un spa</h2>
+                <p class="kicker">Dos cosas pequeñas para empacar: la almohada que convierte cualquier tina de hotel en una tina de baño, y los aceites que hacen que la habitación huela a casa de baños.</p>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:24px;">
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-almohada.jpg" alt="Almohada de baño con ventosas" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Almohada de Bañera SZXYX</h3>
+                            <p>Una almohada de baño con 6 ventosas que no se sueltan: cabeza, cuello y hombros apoyados, para que un baño largo en el hotel no termine con dolor de cuello.</p>
+                            <p><strong>$15.99</strong> <span style="font-size:12px; color:#777;">*Precio en Amazon; puede variar.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B0F3XDCKJZ?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">Verlo en Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Foto ilustrativa.</p>
+                        </div>
+                    </div>
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-aceites.jpg" alt="Set de aceites esenciales" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Set de Aceites Esenciales Aeshory, 12 frascos</h3>
+                            <p>12 frascos de 5 ml para difusor o humidificador: la habitación huele a spa. Para el cuarto del hotel por la noche, o para el baño en casa cuando termine el viaje.</p>
+                            <p><strong>$15.99</strong> <span style="font-size:12px; color:#777;">*Precio en Amazon; puede variar.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B0CQJYVGSW?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">Verlo en Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Foto ilustrativa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="principles" id="planning">
             <div class="wrap">
                 <h2>Sigue planeando</h2>

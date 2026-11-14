@@ -105,6 +105,39 @@
             </div>
         </section>
 
+        <section class="principles" id="spa-en-casa">
+            <div class="wrap">
+                <h2>Take the soak home</h2>
+                <p class="kicker">The bathhouses sell the ritual. These are the pieces that let you keep it at home — the same soak, in your own tub — and the gift basket to take back as a souvenir.</p>
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:24px;">
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-epsom.jpg" alt="Bag of Epsom bath salts" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Epsoak Epsom Salt, 19 lb</h3>
+                            <p>Pure magnesium sulfate, unscented, made in the USA. A big bag of bath salts turns an ordinary tub into the Hot Springs soak, without the drive.</p>
+                            <p><strong>$33.99</strong> <span style="font-size:12px; color:#777;">*Price on Amazon; may vary.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B004N7DQHA?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">See it on Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Illustrative photo.</p>
+                        </div>
+                    </div>
+                    <div style="border:1px solid #e5e0d8; border-radius:12px; overflow:hidden; background:#fff;">
+                        <img src="/images/spa-canasta.jpg" alt="Spa gift basket" style="width:100%; display:block;">
+                        <div style="padding:18px;">
+                            <h3 style="margin:0 0 8px;">Lovery Vanilla Coconut Spa Gift Basket, 9 pieces</h3>
+                            <p>Shower gel, bubble bath, scrub, body oil, two large bath bombs, bath salts and a towel in a handmade basket. The Hot Springs souvenir that actually gets used at home.</p>
+                            <p><strong>$34.19</strong> <span style="font-size:12px; color:#777;">*Price on Amazon; may vary.</span></p>
+                            <div class="bloque-botones">
+                                <a href="https://www.amazon.com/dp/B07GBFT6Z3?tag=hotspringsllc-20" class="btn btn-primario" target="_blank" rel="noopener sponsored">See it on Amazon</a>
+                            </div>
+                            <p style="font-size:12px; color:#777; margin:12px 0 0;">Illustrative photo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="springs" id="park">
             <div class="wrap">
                 <div class="springs-head">
