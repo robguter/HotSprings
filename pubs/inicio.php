@@ -1,33 +1,32 @@
 <?php
-            $meta_title = "Hot Springs, Arkansas — Guía de viaje: baños termales, hoteles y lagos";
-            $meta_description = "Planea tu viaje a Hot Springs, Arkansas: sumérgete en las históricas casas de baños de Bathhouse Row, explora Hot Springs National Park y pasa un día en el Lake Hamilton o el Lake Ouachita.";
-            $canonical = "https://tiendahotspringsllc.com/es/";
-            $is_spanish = true;
+            $meta_title = "Hot Springs, Arkansas — Travel Guide: Baths, Hotels & Lakes - Hot Springs";
+            $meta_description = "Plan your trip to Hot Springs, Arkansas: soak in the historic bathhouses on Bathhouse Row, explore Hot Springs National Park, and spend a day on Lake Hamilton or Lake Ouachita.";
+            $canonical = "https://tiendahotspringsllc.com/";
             $tiene_traduccion = true;
             $data_niche ="";
 
-            require_once __DIR__ . '/../header.php';
+            require_once 'header.php';
 
             // Carousel cards: real Hot Springs photos already on the site, no links yet —
             // the guides they will point to arrive in week 2 of the plan.
             $imagenes_hotsprings = [
                 [
                     "archivo" => "/images/spa_relax.webp",
-                    "alt" => "Sesión de spa y masaje",
-                    "titulo" => "Casas de baños y spas",
-                    "descripcion" => "Sumérgete en una histórica casa de baños en Bathhouse Row."
+                    "alt" => "Spa and massage session",
+                    "titulo" => "Bathhouses & Spas",
+                    "descripcion" => "Soak in a historic bathhouse on Bathhouse Row."
                 ],
                 [
                     "archivo" => "/images/piscina_termal.webp",
-                    "alt" => "Piscina termal al aire libre con vapor elevándose",
-                    "titulo" => "Aguas termales",
-                    "descripcion" => "Agua caliente natural, directa de la montaña."
+                    "alt" => "Outdoor thermal pool with steam rising",
+                    "titulo" => "Thermal Springs",
+                    "descripcion" => "Natural hot water, straight from the mountain."
                 ],
                 [
                     "archivo" => "/images/entorno_natural.webp",
-                    "alt" => "Paisaje natural alrededor de Hot Springs",
-                    "titulo" => "Parque nacional y lagos",
-                    "descripcion" => "Senderos, montañas y lagos de aguas claras por todos lados."
+                    "alt" => "Natural landscape around Hot Springs",
+                    "titulo" => "National Park & Lakes",
+                    "descripcion" => "Trails, mountains and clear-water lakes all around."
                 ],
             ];
             ?>
@@ -38,18 +37,18 @@
             </video>
             <div class="wrap">
                 <div class="columna-texto">
-                    <span class="subtitulo-superior">Hot Springs, Arkansas — Guía de viaje</span>
-                    <h1 class="titulo-principal">El primer balneario de Estados Unidos, todavía humeante</h1>
+                    <span class="subtitulo-superior">Hot Springs, Arkansas — Travel Guide</span>
+                    <h1 class="titulo-principal">America's first resort, still steaming</h1>
 
                     <p class="descripcion-corta">
-                        Hot Springs National Park recibió <strong>2,5 millones de visitas en 2025</strong>.
-                        Ven por el agua termal de Bathhouse Row, quédate por los senderos,
-                        los lagos y el pequeño centro que los rodea. Aquí te contamos cómo planear el viaje.
+                        Hot Springs National Park welcomed <strong>2.5 million visitors in 2025</strong>.
+                        Come for the thermal water on Bathhouse Row, stay for the trails,
+                        the lakes and the small downtown around them. Here is how to plan the trip.
                     </p>
 
                     <div class="bloque-botones">
-                        <a href="#guias" class="btn btn-primario">Planea tu visita</a>
-                        <a href="#plan" class="btn btn-secundario">Ver el plan de 2 días</a>
+                        <a href="#guias" class="btn btn-primario">Plan your visit</a>
+                        <a href="#plan" class="btn btn-secundario">See the 2-day plan</a>
                     </div>
                 </div>
 
@@ -59,22 +58,23 @@
         <section class="springs" id="guias">
             <div class="wrap">
                 <div class="springs-head">
-                    <h2>Empieza por el agua. Lo demás viene solo.</h2>
-                    <p class="kicker">Las guías completas — dónde hospedarse, qué hacer y el plan de 2 días — ya están en vivo abajo.</p>
+                    <h2>Start with the water. The rest follows.</h2>
+                    <p class="kicker">Full guides — where to stay, what to do, and the 2-day plan — are live below.</p>
                 </div>
 
                 <div class="spring-panels">
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/piscina_termal.webp');">
-                        <h3>Las aguas termales</h3>
-                        <p>El agua caliente sale de la montaña en el corazón de la ciudad. No hay piscinas termales al aire libre en el parque: la manera de sumergirse es dentro de una casa de baños.</p>
+                        <h3>The Thermal Springs</h3>
+                        <p>Hot water comes out of the mountain at the heart of the city.
+                            There are no outdoor thermal pools in the park — the way to soak is inside a bathhouse.</p>
                     </div>
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/spa_relax.webp');">
-                        <h3>Casas de baños y spas</h3>
-                        <p>Ocho históricas casas de baños bordean Bathhouse Row. Empieza en la Fordyce Bathhouse — hoy el centro de visitantes y museo del parque — y después recorre la hilera y el Grand Promenade que está detrás.</p>
+                        <h3>Bathhouses &amp; Spas</h3>
+                        <p>Eight historic bathhouses line Bathhouse Row. Start at the Fordyce Bathhouse — today the park visitor center and museum — then walk the row and the Grand Promenade behind it.</p>
                     </div>
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/entorno_natural.webp');">
-                        <h3>Parque nacional y senderos</h3>
-                        <p>El parque está dentro de la ciudad, con 26 millas de senderos entre las montañas Ouachita: la visita es gratis y los perros con correa son bienvenidos en los senderos.</p>
+                        <h3>National Park &amp; Trails</h3>
+                        <p>The park sits inside the city, with 26 miles of hiking trails through the Ouachita Mountains — free to visit, and dogs on a leash are welcome on the trails.</p>
                     </div>
                 </div>
             </div>
@@ -83,37 +83,37 @@
         <section class="springs" id="mas-guias">
             <div class="wrap">
                 <div class="springs-head">
-                    <h2>Más guías</h2>
-                    <p class="kicker">Cuatro guías más para planear el viaje: dónde comer, cuándo ir, los lagos y la lista familiar.</p>
+                    <h2>More guides</h2>
+                    <p class="kicker">Four more guides to plan the trip: where to eat, when to go, the lakes, and the family list.</p>
                 </div>
 
                 <div class="spring-panels">
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/calle_central.webp');">
-                        <h3>Restaurantes</h3>
-                        <p>Barbacoa desde 1928, el bar más viejo de Arkansas y una cervecería dentro de una casa de baños.</p>
+                        <h3>Restaurants</h3>
+                        <p>Barbecue since 1928, the oldest bar in Arkansas and a brewery inside a bathhouse.</p>
                         <div class="bloque-botones">
-                            <a href="/es/best-restaurants-in-hot-springs" class="btn btn-primario">Leer la guía</a>
+                            <a href="/best-restaurants-in-hot-springs" class="btn btn-primario">Read the guide</a>
                         </div>
                     </div>
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
-                        <h3>Mejor Época</h3>
-                        <p>Festivales de primavera, temporada de lagos en verano, follaje en otoño y las carreras de invierno.</p>
+                        <h3>Best Time to Visit</h3>
+                        <p>Spring festivals, summer lake season, fall foliage and the winter races.</p>
                         <div class="bloque-botones">
-                            <a href="/es/best-time-to-visit-hot-springs" class="btn btn-primario">Leer la guía</a>
+                            <a href="/best-time-to-visit-hot-springs" class="btn btn-primario">Read the guide</a>
                         </div>
                     </div>
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita.webp');">
-                        <h3>Lagos y Aire Libre</h3>
-                        <p>Ouachita, Hamilton y Catherine: dónde nadar, pasear en bote y pescar.</p>
+                        <h3>Lakes &amp; Outdoors</h3>
+                        <p>Ouachita, Hamilton and Catherine — where to swim, boat and fish.</p>
                         <div class="bloque-botones">
-                            <a href="/es/lakes-and-outdoors-hot-springs" class="btn btn-primario">Leer la guía</a>
+                            <a href="/lakes-and-outdoors-hot-springs" class="btn btn-primario">Read the guide</a>
                         </div>
                     </div>
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/jardin_garvan.webp');">
-                        <h3>En Familia</h3>
-                        <p>Parque de diversiones, granja de caimanes, museos y la torre: la lista familiar.</p>
+                        <h3>With Kids</h3>
+                        <p>Theme park, alligator farm, museums and the tower — the family list.</p>
                         <div class="bloque-botones">
-                            <a href="/es/hot-springs-with-kids" class="btn btn-primario">Leer la guía</a>
+                            <a href="/hot-springs-with-kids" class="btn btn-primario">Read the guide</a>
                         </div>
                     </div>
                 </div>
@@ -122,19 +122,19 @@
 
         <section class="principles" id="plan">
             <div class="wrap">
-                <h2>Planea tu viaje en tres pasos</h2>
+                <h2>Plan your trip in three steps</h2>
                 <div class="principles-grid">
                 <div class="principle">
-                    <h4>Dónde hospedarse</h4>
-                    <p>Hospédate en el centro, sobre Central Avenue cerca de Bathhouse Row, y camina a los baños, al parque y a cenar. Lake Hamilton, a diez minutos del centro, es la opción más tranquila junto al lago.</p>
+                    <h4>Where to stay</h4>
+                    <p>Stay downtown, along Central Avenue near Bathhouse Row, and walk to the baths, the park and dinner. Lake Hamilton, ten minutes from downtown, is the quieter lakeside option.</p>
                 </div>
                 <div class="principle">
-                    <h4>Los lagos</h4>
-                    <p>Lake Hamilton es el lago cercano y animado para pasear en bote. Lake Ouachita — el lago más grande de Arkansas, famoso por sus aguas claras — es la elección para kayak, natación y un día completo de lago.</p>
+                    <h4>The lakes</h4>
+                    <p>Lake Hamilton is the close, lively lake for boating. Lake Ouachita — Arkansas's largest lake, famous for its clear water — is the pick for kayaking, swimming and a full lake day.</p>
                 </div>
                 <div class="principle">
-                    <h4>Dos días, ya resuelto</h4>
-                    <p>El itinerario completo de 2 días ya está publicado: baños, senderos, lagos, dónde comer y cuánto cuesta cada parada. También estará disponible como guía descargable.</p>
+                    <h4>Two days, done for you</h4>
+                    <p>A complete 2-day itinerary is live: baths, trails, lakes, where to eat and what each stop costs. It will also be available as a downloadable guide.</p>
                 </div>
                 </div>
             </div>
@@ -142,9 +142,9 @@
 
         <div class="disclosure">
             <div class="wrap">
-                Algunos enlaces de este sitio son enlaces de afiliado. Si reservas a través de ellos, Hot Springs LLC puede ganar una comisión sin costo extra para ti.
+                Some links on this site are affiliate links. If you book through them, Hot Springs LLC may earn a commission at no extra cost to you.
             </div>
         </div>
 
         <?php
-      require_once __DIR__ . '/../footer.php'; // si tu footer también está separado ?>
+      require_once 'footer.php'; // si tu footer también está separado ?>
