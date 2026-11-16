@@ -232,7 +232,7 @@ button{ font-family:inherit; cursor:pointer; }
 
 /* Le damos un espacio ordenado al título con respecto al párrafo */
 .spring-panel h3 {
-  margin: 0 0 0.25rem 0;
+  margin: 0 0 1.5rem 0; /* 24px de foto visible entre el título y el párrafo */
   font-size: 1.4rem;
   font-weight: 700;
   text-shadow: 0 2px 4px rgba(0,0,0,0.4); /* Le da un sutil relieve al título */
