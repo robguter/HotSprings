@@ -6,6 +6,8 @@
   //  Front controller bilingüe (EN por defecto, /es/ en español)
   //  - /                              -> inicio.php (EN)
   //  - /things-to-do-in-hot-springs   -> things-to-do-in-hot-springs.php (EN)
+  //  - /best-restaurants-in-hot-springs, /best-time-to-visit-hot-springs,
+  //    /lakes-and-outdoors-hot-springs, /hot-springs-with-kids -> guías nuevas (EN+ES)
   //  - /es/                           -> es/inicio.php (ES)
   //  - /es/things-to-do-in-hot-springs -> es/things-to-do-in-hot-springs.php (ES)
   //  Páginas viejas (belleza, hogar, vida y todo /en/) -> 301 a la nueva web
@@ -23,10 +25,10 @@
   }
 
   // Páginas válidas en inglés (raíz) y en español (/es/)
-  $paginas_en = ['things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'contacto', 'privacidad', 'terminos'];
-  $paginas_es = ['things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary'];
+  $paginas_en = ['things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids', 'contacto', 'privacidad', 'terminos'];
+  $paginas_es = ['things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids'];
   // Páginas con versión en los dos idiomas (para la redirección por idioma)
-  $paginas_bilingues = ['index', 'things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary'];
+  $paginas_bilingues = ['index', 'things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids'];
 
   // Lo viejo en /en/ ya no existe: 301 a la página equivalente en la raíz
   if (preg_match('#^en(/|$)#', $url_param)) {
