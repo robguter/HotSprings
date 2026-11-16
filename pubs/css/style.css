@@ -7,8 +7,8 @@
 
 :root{
   /* -- paleta: minerales de fuentes termales -- */
-  --deep-teal:   #123133;
-  --deep-teal-2: #0d2426;
+  --deep-teal:   #12313380;
+  --deep-teal-2: #0d242680;
   --spring-teal: #4C8A94;   /* Vida Activa */
   --amber:       #2E8AC9;   /* Cocina y Hogar */
   --clay-rose:   #5E6FBD;   /* Belleza y Cuidado */
@@ -122,8 +122,8 @@ button{ font-family:inherit; cursor:pointer; }
 /* ---------- hero (home) ---------- */
 .hero{
   background:
-    radial-gradient(120% 140% at 85% 0%, rgba(76,148,138,.35), transparent 55%),
-    radial-gradient(90% 120% at 10% 100%, rgba(189,111,94,.25), transparent 60%),
+    radial-gradient(120% 140% at 85% 0%, rgba(76,148,138,.15), transparent 55%),
+    radial-gradient(90% 120% at 10% 100%, rgba(189,111,94,.05), transparent 60%),
     linear-gradient(180deg, var(--deep-teal) 0%, var(--deep-teal-2) 100%);
   color:var(--mist);
   padding:var(--space-2) 0 var(--space-2);
