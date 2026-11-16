@@ -4,7 +4,7 @@
     $is_spanish = isset($is_spanish) ? $is_spanish : false;
     $tiene_traduccion = isset($tiene_traduccion) ? $tiene_traduccion : false;
     if ($is_spanish) {
-        $titulo_pagina = isset($meta_title) ? $meta_title : "Hot Springs, Arkansas — Guía de Viajes: Termas, Hoteles y Lagos - Hot Springs";
+        $titulo_pagina = isset($meta_title) ? $meta_title : "Hot Springs, Arkansas — Guía de Viajes: Termas, Hoteles y Lagos";
         $desc_pagina   = isset($meta_description) ? $meta_description : "Planifica tu viaje a Hot Springs, Arkansas: báñate en las casas de baño históricas de Bathhouse Row, explora el Parque Nacional Hot Springs y pasa un día en el Lago Hamilton o el Lago Ouachita.";
         $url_canonica  = isset($canonical) ? $canonical : "https://tiendahotspringsllc.com/es/";
         $og_locale = 'es_ES';
@@ -41,6 +41,10 @@
             'things-to-do-in-hot-springs'  => 'Qué Hacer',
             'where-to-stay-in-hot-springs' => 'Dónde Dormir',
             'hot-springs-2-day-itinerary'  => 'Itinerario de 2 Días',
+            'best-restaurants-in-hot-springs' => 'Restaurantes',
+            'best-time-to-visit-hot-springs'  => 'Mejor Época',
+            'lakes-and-outdoors-hot-springs'  => 'Lagos y Aire Libre',
+            'hot-springs-with-kids'           => 'En Familia',
             'contacto'                     => 'Contacto',
         ];
         $logo_sub  = 'Arkansas · Guía de Viajes';
@@ -53,6 +57,10 @@
             'things-to-do-in-hot-springs'  => 'Things to Do',
             'where-to-stay-in-hot-springs' => 'Where to Stay',
             'hot-springs-2-day-itinerary'  => '2-Day Itinerary',
+            'best-restaurants-in-hot-springs' => 'Restaurants',
+            'best-time-to-visit-hot-springs'  => 'Best Time to Visit',
+            'lakes-and-outdoors-hot-springs'  => 'Lakes & Outdoors',
+            'hot-springs-with-kids'           => 'With Kids',
             'contacto'                     => 'Contact',
         ];
         $logo_sub  = 'Arkansas · Travel Guide';
@@ -69,12 +77,6 @@
 <!DOCTYPE html>
 <html lang="<?php echo $is_spanish ? 'es' : 'en'; ?>">
     <head>
-        <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5M5893MB"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-        </script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
