@@ -108,7 +108,7 @@
 
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="/css/style.css?v=2">
         <style>
             .lang-switcher{display:inline-flex;align-items:center;gap:.4rem;font-size:.85rem;font-weight:600;white-space:nowrap}
             .lang-switcher a{text-decoration:none;opacity:.55}
