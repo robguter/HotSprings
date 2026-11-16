@@ -60,7 +60,7 @@
             <div class="wrap">
                 <div class="springs-head">
                     <h2>Empieza por el agua. Lo demás viene solo.</h2>
-                    <p class="kicker">Las guías completas — dónde hospedarse, qué reservar y qué ofrece cada casa de baños — están en camino. Empieza por las tres cosas que hacen diferente a Hot Springs.</p>
+                    <p class="kicker">Las guías completas — dónde hospedarse, qué hacer y el plan de 2 días — ya están en vivo abajo.</p>
                 </div>
 
                 <div class="spring-panels">
@@ -80,6 +80,46 @@
             </div>
         </section>
 
+        <section class="springs" id="mas-guias">
+            <div class="wrap">
+                <div class="springs-head">
+                    <h2>Más guías</h2>
+                    <p class="kicker">Cuatro guías más para planear el viaje: dónde comer, cuándo ir, los lagos y la lista familiar.</p>
+                </div>
+
+                <div class="spring-panels">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/calle_central.webp');">
+                        <h3>Restaurantes</h3>
+                        <p>Barbacoa desde 1928, el bar más viejo de Arkansas y una cervecería dentro de una casa de baños.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/best-restaurants-in-hot-springs" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
+                        <h3>Mejor Época</h3>
+                        <p>Festivales de primavera, temporada de lagos en verano, follaje en otoño y las carreras de invierno.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/best-time-to-visit-hot-springs" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita.webp');">
+                        <h3>Lagos y Aire Libre</h3>
+                        <p>Ouachita, Hamilton y Catherine: dónde nadar, pasear en bote y pescar.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/lakes-and-outdoors-hot-springs" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/jardin_garvan.webp');">
+                        <h3>En Familia</h3>
+                        <p>Parque de diversiones, granja de caimanes, museos y la torre: la lista familiar.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/hot-springs-with-kids" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="principles" id="plan">
             <div class="wrap">
                 <h2>Planea tu viaje en tres pasos</h2>
@@ -94,7 +134,7 @@
                 </div>
                 <div class="principle">
                     <h4>Dos días, ya resuelto</h4>
-                    <p>Viene un itinerario completo de 2 días: baños, senderos, lagos, dónde comer y cuánto cuesta cada parada. También estará disponible como guía descargable.</p>
+                    <p>El itinerario completo de 2 días ya está publicado: baños, senderos, lagos, dónde comer y cuánto cuesta cada parada. También estará disponible como guía descargable.</p>
                 </div>
                 </div>
             </div>
