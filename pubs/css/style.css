@@ -216,7 +216,9 @@ button{ font-family:inherit; cursor:pointer; }
   position: relative; 
   overflow: hidden;
   border-radius: var(--radius-m);
-  padding: calc(190px + var(--space-2)) var(--space-2) var(--space-2);
+  /* El título queda DENTRO de la foto: empieza a 187px y la foto mide 230px,
+     así el párrafo arranca justo donde termina la foto */
+  padding: calc(171px + var(--space-2)) var(--space-2) .75rem;
   color: var(--mist);
   background: var(--deep-teal-2);
   min-height: 0;
@@ -243,7 +245,7 @@ button{ font-family:inherit; cursor:pointer; }
 
 /* Foto más alta solo para el panel de Oaklawn (el resto queda en 190px) */
 .spring-panel--alta::before { height: 440px; }
-.spring-panel--alta { padding-top: calc(440px + var(--space-2)); }
+.spring-panel--alta { padding-top: calc(381px + var(--space-2)); }
 
 /* Le damos un espacio ordenado al título con respecto al párrafo */
 .spring-panel h3 {
@@ -255,7 +257,7 @@ button{ font-family:inherit; cursor:pointer; }
 
 /* Separamos el párrafo del botón */
 .spring-panel p {
-  margin: 0 0 var(--space-2) 0;
+  margin: 0 0 var(--space-1) 0;
   font-size: 0.95rem;
   line-height: 1.4;
 }
