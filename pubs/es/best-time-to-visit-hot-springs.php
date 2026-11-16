@@ -91,7 +91,12 @@
                     </div>
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
                         <h3>Invierno: temporada de carreras</h3>
-                        <p>La temporada de carreras de Oaklawn va del 27 de noviembre de 2026 al 1 de mayo de 2027. El invierno es suave, y los baños están en su mejor momento cuando hace frío afuera.</p>
+                        <p>La temporada de carreras de Oaklawn abre el viernes 27 de noviembre de 2026
+                            — la apertura más temprana en la historia del hipódromo
+                            — con el Hot Springs Stakes de $150,000 para caballos de 3 años, una milla.
+                            Las puertas abren a las 11 a.m., la primera carrera a las 12:45 p.m., entrada gratis.
+                            La temporada va hasta el 1 de mayo de 2027. El invierno es suave,
+                            y los baños están en su mejor momento cuando hace frío afuera</p>
                     </div>
                 </div>
             </div>

@@ -90,7 +90,10 @@
                     </div>
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
                         <h3>Winter: racing season</h3>
-                        <p>The Oaklawn racing season runs November 27, 2026 to May 1, 2027. Winter is mild, and the baths are at their best when it is cold outside.</p>
+                        <p>The Oaklawn racing season opens Friday, November 27, 2026 — the earliest opening day in track history —
+                            with the $150,000 Hot Springs Stakes for 3-year-olds at one mile. Gates open at 11 a.m.,
+                            first post 12:45 p.m., free entry. The season runs to May 1, 2027. Winter is mild,
+                            and the baths are at their best when it is cold outside.</p>
                     </div>
                 </div>
             </div>
