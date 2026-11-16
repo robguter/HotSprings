@@ -172,25 +172,8 @@ button{ font-family:inherit; cursor:pointer; }
 
 .spring-panel::after{
   content:''; position:absolute; z-index:-1; border-radius:50%;
-  width:340px; height:350px; right:-90px; top:-50px;
+  width:340px; height:350px; right:-90px; top:50px;
   background:radial-gradient(circle, rgba(255,255,255,.16), transparent 70%);
-}
-
-/* --- NUEVA CONFIGURACIÓN DE VARIABLES CON IMÁGENES DE FONDO --- */
-
-.spring-panel--belleza { 
-  --panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), 
-              url('../images/belleza/belleza_01.webp'); 
-}
-
-.spring-panel--hogar { 
-  --panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), 
-              url('../images/hogar/hogar_06.webp'); 
-}
-
-.spring-panel--vida { 
-  --panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), 
-              url('../images/vida/vida_01.webp'); 
 }
 
 /* --- AJUSTES EN EL CONTENEDOR ANTES DE LA CAPA PARA QUE LA IMAGEN SE VEA BIEN --- */
@@ -218,7 +201,7 @@ button{ font-family:inherit; cursor:pointer; }
   border-radius: var(--radius-m);
   /* El título queda DENTRO de la foto: empieza a 187px y la foto mide 230px,
      así el párrafo arranca justo donde termina la foto */
-  padding: calc(171px + var(--space-2)) var(--space-2) .75rem;
+  padding: calc(171px + var(--space-2)) var(--space-2) .25rem;
   color: var(--mist);
   background: var(--deep-teal-2);
   min-height: 0;
@@ -677,3 +660,21 @@ a.tarjeta-slider {
 .hero--video .wrap{ position:relative; z-index:2; display:block; width:100%; }
 .hero--video .columna-texto{ max-width:620px; }
 @media (max-width:720px){ .hero--video{ min-height:480px; } }
+
+
+/* --- NUEVA CONFIGURACIÓN DE VARIABLES CON IMÁGENES DE FONDO ---
+.spring-panel--belleza { 
+  --panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.5), rgba(120, 54, 43, 0.6)), 
+              url('../images/belleza/belleza_01.webp'); 
+}
+
+.spring-panel--hogar { 
+  --panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.5), rgba(169, 106, 30, 0.6)), 
+              url('../images/hogar/hogar_06.webp'); 
+}
+
+.spring-panel--vida { 
+  --panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.5), rgba(31, 89, 81, 0.6)), 
+              url('../images/vida/vida_01.webp'); 
+}
+ */
