@@ -39,12 +39,12 @@
         $nav_items = [
             'index'                        => 'Inicio',
             'things-to-do-in-hot-springs'  => 'Qué Hacer',
-            'where-to-stay-in-hot-springs' => 'Dónde Dormir',
-            'hot-springs-2-day-itinerary'  => 'Itinerario de 2 Días',
+            'where-to-stay-in-hot-springs' => 'Dormir',
+            'hot-springs-2-day-itinerary'  => 'Itinerario',
             'best-restaurants-in-hot-springs' => 'Restaurantes',
             'best-time-to-visit-hot-springs'  => 'Mejor Época',
-            'lakes-and-outdoors-hot-springs'  => 'Lagos y Aire Libre',
-            'hot-springs-with-kids'           => 'En Familia',
+            'lakes-and-outdoors-hot-springs'  => 'Lagos',
+            'hot-springs-with-kids'           => 'Niños',
             'contacto'                     => 'Contacto',
         ];
         $logo_sub  = 'Arkansas · Guía de Viajes';
@@ -54,13 +54,13 @@
     } else {
         $nav_items = [
             'index'                        => 'Home',
-            'things-to-do-in-hot-springs'  => 'Things to Do',
-            'where-to-stay-in-hot-springs' => 'Where to Stay',
-            'hot-springs-2-day-itinerary'  => '2-Day Itinerary',
+            'things-to-do-in-hot-springs'  => 'What to Do',
+            'where-to-stay-in-hot-springs' => 'Stay',
+            'hot-springs-2-day-itinerary'  => 'Itinerary',
             'best-restaurants-in-hot-springs' => 'Restaurants',
-            'best-time-to-visit-hot-springs'  => 'Best Time to Visit',
-            'lakes-and-outdoors-hot-springs'  => 'Lakes & Outdoors',
-            'hot-springs-with-kids'           => 'With Kids',
+            'best-time-to-visit-hot-springs'  => 'When to Go',
+            'lakes-and-outdoors-hot-springs'  => 'Lakes',
+            'hot-springs-with-kids'           => 'Kids',
             'contacto'                     => 'Contact',
         ];
         $logo_sub  = 'Arkansas · Travel Guide';
