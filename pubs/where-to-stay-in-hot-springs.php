@@ -78,7 +78,7 @@
                 <div class="spring-panels">
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/hotel_habitacion.webp');">
                         <h3>1. Downtown &amp; Bathhouse Row</h3>
-                        <p>Wake up near the historic bathhouses, the Fordyce Visitor Center (369 Central Ave), and the Grand Promenade. Among the most popular hotels here are the historic Arlington Resort Hotel and Spa (239 Central Ave), The Waters Hotel on Bathhouse Row (340 Central Ave), and the intimate Hotel Hale (341 Central Ave), which features bathtubs in its suites. Parking is somewhat limited; however, you won’t need a car during the weekend.</p>
+                        <p>Stay near the historic thermal baths, next to the Fordyce Visitor Center (369 Central Ave) and the Grand Promenade. Popular options include the historic Arlington Resort Hotel and Spa (239 Central Ave), The Waters Hotel on Bathhouse Row (340 Central Ave), and Hotel Hale (341 Central Ave). Parking is limited however you won’t need a car during the weekend</p>
                     </div>
                     <!-- BOOKING LINK: Downtown hotels — insert after approval -->
                     <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita.webp');">
