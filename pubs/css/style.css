@@ -129,12 +129,12 @@ button{ font-family:inherit; cursor:pointer; }
   padding:var(--space-2) 0 var(--space-2);
   overflow:hidden;
 }
-.hero .wrap{ display:grid; grid-template-columns:1.1fr .9fr; gap:var(--space-3); align-items:center; }
+.hero .wrap{ display:grid; grid-template-columns:1.1fr .9fr; gap:var(--space-2); align-items:center; }
 .hero-eyebrow{ color:rgba(246,244,238,.65); font-size:.95rem; margin-bottom:var(--space-2); max-width:45ch; }
 .hero h1{
   font-size:clamp(2.4rem, 4.2vw, 3.6rem);
-  line-height:1.05;
-  max-width:14ch;
+  line-height:1.00;
+  max-width:16ch;
   opacity:0; transform:translateY(14px);
   animation:rise .7s ease forwards .05s;
 }
@@ -512,8 +512,8 @@ a.tarjeta-slider {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 550px;
-    padding: 20px 10px;
+    max-width: 600px;
+    padding: 10px 5px;
 }
 
 /* El texto pequeño de arriba ahora tiene más estilo y respiro */
