@@ -25,10 +25,10 @@
   }
 
   // Páginas válidas en inglés (raíz) y en español (/es/)
-  $paginas_en = ['things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids', 'contacto', 'privacidad', 'terminos'];
-  $paginas_es = ['things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids'];
+  $paginas_en = ['things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids', 'budget-guide-free-things-hot-springs', 'hiking-trails-hot-springs', 'hot-springs-village-golf', 'lake-ouachita-day-trip', 'downtown-central-avenue-hot-springs', 'oaklawn-racing-casino', 'garvan-woodland-gardens', 'contacto', 'privacidad', 'terminos', 'nosotros'];
+  $paginas_es = ['things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids', 'budget-guide-free-things-hot-springs', 'hiking-trails-hot-springs', 'hot-springs-village-golf', 'lake-ouachita-day-trip', 'downtown-central-avenue-hot-springs', 'oaklawn-racing-casino', 'garvan-woodland-gardens'];
   // Páginas con versión en los dos idiomas (para la redirección por idioma)
-  $paginas_bilingues = ['index', 'things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids'];
+  $paginas_bilingues = ['index', 'things-to-do-in-hot-springs', 'where-to-stay-in-hot-springs', 'hot-springs-2-day-itinerary', 'best-restaurants-in-hot-springs', 'best-time-to-visit-hot-springs', 'lakes-and-outdoors-hot-springs', 'hot-springs-with-kids', 'budget-guide-free-things-hot-springs', 'hiking-trails-hot-springs', 'hot-springs-village-golf', 'lake-ouachita-day-trip', 'downtown-central-avenue-hot-springs', 'oaklawn-racing-casino', 'garvan-woodland-gardens'];
 
   // Lo viejo en /en/ ya no existe: 301 a la página equivalente en la raíz
   if (preg_match('#^en(/|$)#', $url_param)) {

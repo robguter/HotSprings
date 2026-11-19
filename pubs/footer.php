@@ -10,6 +10,7 @@
         $f_contacto = 'Contacto y Soporte';
         $f_priv    = 'Política de Privacidad';
         $f_term    = 'Términos del Servicio';
+        $f_nosotros = 'Nosotros';
         $f_rights  = 'Todos los derechos reservados.';
         $f_based   = 'Esta guía está basada en Hot Springs, Arkansas.';
         $f_assoc   = 'Algunos enlaces de este sitio son enlaces de afiliado. Si reservas a través de ellos, podemos ganar una comisión sin costo extra para ti.';
@@ -35,6 +36,7 @@
         $f_contacto = 'Contact & Support';
         $f_priv    = 'Privacy Policy';
         $f_term    = 'Terms of Service';
+        $f_nosotros = 'About Us';
         $f_rights  = 'All rights reserved.';
         $f_based   = 'This guide is based in Hot Springs, Arkansas.';
         $f_assoc   = 'Some links on this site are affiliate links. If you book through them, we may earn a commission at no extra cost to you.';
@@ -84,6 +86,7 @@
                         <h5><?php echo $f_legal; ?></h5>
                         <ul>
                             <li><a href="/contacto"><?php echo $f_contacto; ?></a></li>
+                            <li><a href="/nosotros"><?php echo $f_nosotros; ?></a></li>
                             <li><a href="/privacidad"><?php echo $f_priv; ?></a></li>
                             <li><a href="/terminos"><?php echo $f_term; ?></a></li>
                         </ul>

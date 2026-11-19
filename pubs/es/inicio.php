@@ -84,7 +84,7 @@
             <div class="wrap">
                 <div class="springs-head">
                     <h2>Más guías</h2>
-                    <p class="kicker">Cuatro guías más para planear el viaje: dónde comer, cuándo ir, los lagos y la lista familiar.</p>
+                    <p class="kicker">Once guías más para planear el viaje: dónde comer, cuándo ir, los lagos, la lista familiar, presupuesto, senderos, el Village, el lago Ouachita, el centro, Oaklawn y Garvan.</p>
                 </div>
 
                 <div class="spring-panels">
@@ -114,6 +114,55 @@
                         <p>Parque de diversiones, granja de caimanes, museos y la torre: la lista familiar.</p>
                         <div class="bloque-botones">
                             <a href="/es/hot-springs-with-kids" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/paseo_promenade.webp');">
+                        <h3>Presupuesto y cosas gratis</h3>
+                        <p>El parque es gratis: senderos, el museo y el agua termal por casi nada.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/budget-guide-free-things-hot-springs" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/sendero_bosque.webp');">
+                        <h3>Senderos</h3>
+                        <p>26 millas de senderos gratis detrás del centro, del paseo al Sunset Trail.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/hiking-trails-hot-springs" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita.webp');">
+                        <h3>Hot Springs Village</h3>
+                        <p>Nueve campos de golf, 171 hoyos, 11 lagos y 30 millas de senderos detrás de las puertas.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/hot-springs-village-golf" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita.webp');">
+                        <h3>Lago Ouachita</h3>
+                        <p>Un día entero en el lago más limpio del país, a 15 millas del pueblo.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/lake-ouachita-day-trip" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/calle_central.webp');">
+                        <h3>El centro y Central Ave</h3>
+                        <p>Bathhouse Row, el paseo, las galerías y el Museo de los Gánsteres a pie.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/downtown-central-avenue-hot-springs" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
+                        <h3>Oaklawn</h3>
+                        <p>Carreras en vivo del 27 de nov al 1 de may, el Arkansas Derby de $1.5M y casino 24 horas.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/oaklawn-racing-casino" class="btn btn-primario">Leer la guía</a>
+                        </div>
+                    </div>
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/jardin_garvan.webp');">
+                        <h3>Jardines Garvan</h3>
+                        <p>210 acres de jardines en el lago Hamilton: la capilla, el jardín japonés y la casa del árbol.</p>
+                        <div class="bloque-botones">
+                            <a href="/es/garvan-woodland-gardens" class="btn btn-primario">Leer la guía</a>
                         </div>
                     </div>
                 </div>
