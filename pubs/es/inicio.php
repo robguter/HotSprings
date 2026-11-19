@@ -32,10 +32,16 @@
             ];
             ?>
         <section class="hero hero--video">
-            <video class="hero-bg" autoplay muted loop playsinline preload="auto" poster="/images/piscina_termal.webp">
+            <video class="hero-bg" muted loop playsinline preload="none" poster="/images/piscina_termal.webp">
                 <source src="/images/video-mejores-sitios.webm" type="video/webm">
                 <source src="/images/video-mejores-sitios.mp4" type="video/mp4">
             </video>
+            <script>
+            window.addEventListener('load', function () {
+                var v = document.querySelector('.hero-bg');
+                if (v) { v.load(); v.play().catch(function () {}); }
+            });
+            </script>
             <div class="wrap">
                 <div class="columna-texto">
                     <span class="subtitulo-superior">Hot Springs, Arkansas — Guía de viaje</span>
