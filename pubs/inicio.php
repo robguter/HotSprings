@@ -88,28 +88,28 @@
                 </div>
 
                 <div class="spring-panels">
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/calle_central.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(173, 109, 101, 0.05), rgba(120, 54, 43, 0.06)), url('/images/cerveceria_superior.webp');">
                         <h3>Restaurants</h3>
                         <p>Barbecue since 1928, the oldest bar in Arkansas and a brewery inside a bathhouse.</p>
                         <div class="bloque-botones">
                             <a href="/best-restaurants-in-hot-springs" class="btn btn-primario">Read the guide</a>
                         </div>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/oaklawn.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(215, 154, 62, 0.05), rgba(169, 106, 30, 0.06)), url('/images/piscina_termal.webp');">
                         <h3>Best Time to Visit</h3>
                         <p>Spring festivals, summer lake season, fall foliage and the winter races.</p>
                         <div class="bloque-botones">
                             <a href="/best-time-to-visit-hot-springs" class="btn btn-primario">Read the guide</a>
                         </div>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_hamilton.webp');">
                         <h3>Lakes &amp; Outdoors</h3>
                         <p>Ouachita, Hamilton and Catherine — where to swim, boat and fish.</p>
                         <div class="bloque-botones">
                             <a href="/lakes-and-outdoors-hot-springs" class="btn btn-primario">Read the guide</a>
                         </div>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/jardin_garvan.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/torre_mirador.webp');">
                         <h3>With Kids</h3>
                         <p>Theme park, alligator farm, museums and the tower — the family list.</p>
                         <div class="bloque-botones">
@@ -137,7 +137,7 @@
                             <a href="/hot-springs-village-golf" class="btn btn-primario">Read the guide</a>
                         </div>
                     </div>
-                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita.webp');">
+                    <div class="spring-panel" style="--panel-bg: linear-gradient(155deg, rgba(106, 178, 168, 0.05), rgba(31, 89, 81, 0.06)), url('/images/lago_ouachita_orilla.webp');">
                         <h3>Lake Ouachita</h3>
                         <p>A full day on the cleanest lake in the country, 15 miles from town.</p>
                         <div class="bloque-botones">
